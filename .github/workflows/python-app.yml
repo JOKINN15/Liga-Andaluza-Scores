@@ -30,3 +30,12 @@ jobs:
           GOLF_PASSWORD: ${{ secrets.GOLF_PASSWORD }}
         run: |
           python refreshScores.py  # Update with the name of your Python script
+
+      - name: Upload database artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: golf-database
+          path: golf.db
+    
+
+          
