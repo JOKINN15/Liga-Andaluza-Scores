@@ -6,3 +6,4 @@ charset-normalizer==3.4.0
 idna==3.10
 urllib3==2.2.3
 SQLAlchemy==2.0.36
+selenium==4.8.0
