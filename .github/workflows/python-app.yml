@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.8'  # You can change this to the version you're using
+          python-version: '3.9' 
 
       - name: Install dependencies
         run: |
@@ -29,4 +29,4 @@ jobs:
           GOLF_USER: ${{ secrets.GOLF_USER }}
           GOLF_PASSWORD: ${{ secrets.GOLF_PASSWORD }}
         run: |
-          python scrape_and_store.py  # Update with the name of your Python script
+          python refreshScores.py  # Update with the name of your Python script
