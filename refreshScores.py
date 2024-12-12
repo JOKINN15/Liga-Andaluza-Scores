@@ -15,12 +15,14 @@ import os
 username = os.getenv('GOLF_USER')
 password = os.getenv('GOLF_PASSWORD')
 
-
 # Create an engine and base class for the ORM
 Base = declarative_base()
-engine = create_engine('sqlite:///golf.db', echo=True)  # SQLite database file
-Session = sessionmaker(bind=engine)
-session = Session()
+golf_engine = create_engine('sqlite:///golf.db', echo=True)  # SQLite database file for golf
+golf_session = sessionmaker(bind=golf_engine)()
+
+# Separate engine for clubs database
+clubs_engine = create_engine('sqlite:///clubs.db', echo=True)  # SQLite database file for clubs
+clubs_session = sessionmaker(bind=clubs_engine)()
 
 # Player model
 class Player(Base):
@@ -40,7 +42,7 @@ class Result(Base):
     id = Column(Integer, primary_key=True)
     player_id = Column(Integer, ForeignKey('players.id'), nullable=False)
     fecha = Column(String(20), nullable=False)  # Date
-    club = Column(String(50), nullable=False)  # Club
+    club = Column(String(50), nullable=False)  # Club name
     nombre_torneo = Column(String(100), nullable=False)  # Tournament name
     nivel = Column(String(5), nullable=False)  # Level
     jornada = Column(Integer, nullable=False)  # Match round
@@ -53,20 +55,34 @@ class Result(Base):
     hcp_jue = Column(Float, nullable=True)  # Played handicap
     hcp_fin = Column(Float, nullable=True)  # Final handicap
 
+class Club(Base):
+        __tablename__ = 'clubs'
+        id = Column(Integer, primary_key=True)
+        club_id = Column(Integer, unique=True, nullable=False)
+        club_code = Column(String(50), unique=True, nullable=False) 
+        club_name = Column(String(100), nullable=False)
+
+# Function to get club name from club code
+def get_club_name_from_code(club_code):
+    # Query the clubs table
+    club = clubs_session.query(Club).filter_by(club_code=club_code).first()
+    return club.club_name if club else f"Unknown Club ({club_code})"
+
+
 # Function to load players from JSON and add to the database
 def load_players_from_json(json_file):
     with open(json_file, 'r') as f:
         players_data = json.load(f)
     
     # Add players to the database
-    session.query(Player).delete()
+    golf_session.query(Player).delete()
     for player_data in players_data:
         player = Player(
             license=player_data['license'],
             nickname=player_data['nickname']
         )
-        session.add(player)
-    session.commit()
+        golf_session.add(player)
+    golf_session.commit()
 
 # Function to scrape and store results for players
 def scrape_and_store_results():
@@ -108,11 +124,11 @@ def scrape_and_store_results():
         time.sleep(3)
 
         # Erase all records in the 'results' table
-        session.query(Result).delete()
-        session.commit()
+        golf_session.query(Result).delete()
+        golf_session.commit()
 
         # Fetch players and their results
-        players = session.query(Player).all()
+        players = golf_session.query(Player).all()
 
         for player in players:
             license = player.license
@@ -134,6 +150,7 @@ def scrape_and_store_results():
 
                 fecha = columns[0].text.strip()
                 club_code = columns[1].find_element(By.TAG_NAME, "span").text.strip()
+                club_name = get_club_name_from_code(club_code)
                 nombre_torneo = columns[2].find_element(By.TAG_NAME, "a").text.strip()
                 nivel = columns[3].text.strip()
                 jornada = int(columns[4].text.strip()) if columns[4].text.strip().isdigit() else None
@@ -148,7 +165,7 @@ def scrape_and_store_results():
 
                 results.append({
                     "fecha": fecha,
-                    "club": club_code,
+                    "club": club_name,
                     "nombre_torneo": nombre_torneo,
                     "nivel": nivel,
                     "jornada": jornada,
@@ -184,13 +201,13 @@ def scrape_and_store_results():
                     hcp_jue=result_data["hcp_jue"],
                     hcp_fin=result_data["hcp_fin"]
                 )
-                session.add(new_result)
+                golf_session.add(new_result)
 
             # After adding the results, update the player's current_handicap to the latest `hcp_fin`
             if results:
                 player.current_handicap = top_10_results[0]["hcp_fin"]
 
-            session.commit()
+            golf_session.commit()
 
             driver.back()  # Navigate back to the previous page
             time.sleep(5)
@@ -200,7 +217,7 @@ def scrape_and_store_results():
 
 if __name__ == "__main__":
     # Create the tables in the database (if they don't already exist)
-    Base.metadata.create_all(engine)
+    Base.metadata.create_all(golf_engine)
 
     # Load players from JSON and populate the database
     load_players_from_json('players.json')
