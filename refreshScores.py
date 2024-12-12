@@ -141,7 +141,7 @@ def scrape_and_store_results():
             time.sleep(10)
 
             # Step 4: Parse results
-            rows = driver.find_elements(By.CSS_SELECTOR, "tr.item")
+            rows = driver.find_elements(By.CSS_SELECTOR, "tr.item, tr.altern")  # Select tr elements with either class "named" or "alternate"
             results = []
             for row in rows:
                 columns = row.find_elements(By.TAG_NAME, "td")
@@ -150,7 +150,6 @@ def scrape_and_store_results():
 
                 fecha = columns[0].text.strip()
                 club_code = columns[1].find_element(By.TAG_NAME, "span").text.strip()
-                club_name = get_club_name_from_code(club_code)
                 nombre_torneo = columns[2].find_element(By.TAG_NAME, "a").text.strip()
                 nivel = columns[3].text.strip()
                 jornada = int(columns[4].text.strip()) if columns[4].text.strip().isdigit() else None
@@ -165,7 +164,7 @@ def scrape_and_store_results():
 
                 results.append({
                     "fecha": fecha,
-                    "club": club_name,
+                    "club_code": club_code,
                     "nombre_torneo": nombre_torneo,
                     "nivel": nivel,
                     "jornada": jornada,
@@ -179,9 +178,13 @@ def scrape_and_store_results():
                     "hcp_fin": hcp_fin
                 })
 
-            # Sort results by fecha (date) in ascending order
+            # Sort results by fecha (date) in descending order and select top 10
             results.sort(key=lambda x: datetime.strptime(x["fecha"], "%m/%Y"), reverse=True)
             top_10_results = results[:10]
+
+            # Fetch club names only for top 10 results
+            for result in top_10_results:
+                result["club"] = get_club_name_from_code(result["club_code"])
 
             # Insert the results into the database
             for result_data in top_10_results:
