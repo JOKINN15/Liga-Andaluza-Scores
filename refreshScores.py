@@ -143,8 +143,9 @@ def scrape_and_store_results():
 
             # Step 4: Parse results
             rows = driver.find_elements(By.CSS_SELECTOR, "tr.item, tr.altern")  # Select tr elements with either class "named" or "alternate"
+            first_10_rows = rows[:10]
             results = []
-            for row in rows:
+            for row in first_10_rows:
                 columns = row.find_elements(By.TAG_NAME, "td")
                 if len(columns) < 13:
                     continue
