@@ -49,6 +49,7 @@ class Result(Base):
     res_hcp = Column(Integer, nullable=True)  # Handicap result
     res_sch = Column(String(20), nullable=True)  # Result SCH
     dif_neto = Column(Integer, nullable=True)  # Net difference (integer, can be negative or 0)
+    res_stb = Column(Integer, nullable=True)  # Net difference (integer, can be negative or 0)
     mod_jue = Column(String(10), nullable=True)  # Game mode
     form_calc = Column(String(5), nullable=True)  # Calculation formula
     hcp_ini = Column(Float, nullable=True)  # Initial handicap
@@ -171,6 +172,7 @@ def scrape_and_store_results():
                     "res_hcp": res_hcp,
                     "res_sch": res_sch,
                     "dif_neto": dif_neto,
+                    "res_stb": dif_neto + 36,
                     "mod_jue": mod_jue,
                     "form_calc": form_calc,
                     "hcp_ini": hcp_ini,
@@ -198,6 +200,7 @@ def scrape_and_store_results():
                     res_hcp=result_data["res_hcp"],
                     res_sch=result_data["res_sch"],
                     dif_neto=result_data["dif_neto"],
+                    res_stb=result_data["res_stb"],
                     mod_jue=result_data["mod_jue"],
                     form_calc=result_data["form_calc"],
                     hcp_ini=result_data["hcp_ini"],
