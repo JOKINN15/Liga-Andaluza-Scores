@@ -8,6 +8,9 @@ on:
   schedule:
     - cron: '0 10 * * 1,2'  # Lunes y martes a las 10:00 UTC (12:00 hora peninsular española)
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
