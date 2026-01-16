@@ -5,122 +5,153 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liga Andaluza Scores</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <style>
-        .hidden {
-            display: none;
-        }
-        .button-container {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-        .btn-success {
-            background-color: #28a745; /* Green color */
-            color: white;
-        }
-        .btn:hover {
-            opacity: 0.9;
-        }
+        .hidden { display: none; }
+        .button-container { display: flex; gap: 10px; margin-bottom: 20px; }
+        .btn-success { background-color: #28a745; color: white; }
+        .btn:hover { opacity: 0.9; }
+        .loading { text-align: center; padding: 20px; color: #666; }
     </style>
 </head>
 <body>
-<div class="container">
-    <h1 class="my-4">Liga Andaluza Players</h1>
+    <div class="container">
+        <h1 class="my-4">Liga Andaluza Players</h1>
 
-    <!-- Button container with Refresh Scores and Add Player -->
-    <div class="button-container">
-        <form action="{{ url_for('refresh_db') }}" method="POST">
-            <button type="submit" class="btn btn-primary">Refresh Scores</button>
-        </form>
+        <div class="button-container">
+            <button id="refreshBtn" class="btn btn-primary">Refresh Scores</button>
+            <small class="text-muted" id="lastUpdate"></small>
+        </div>
+
+        <div id="loading" class="loading">Loading player data...</div>
+        <div id="error" class="alert alert-danger hidden"></div>
+
+        <table id="playersTable" class="table table-bordered table-striped hidden">
+            <thead>
+                <tr>
+                    <th>Nickname</th>
+                    <th>License</th>
+                    <th>Current Handicap</th>
+                    <th>Handicap Galactico</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="playersBody">
+                <!-- Filled by JavaScript -->
+            </tbody>
+        </table>
     </div>
 
-    <!-- Table for Players and Results -->
-    <table class="table table-bordered table-striped">
-        <thead>
-        <tr>
-            <th>Nickname</th>
-            <th>License</th>
-            <th>Current Handicap</th>
-            <th>Handicap Galactico</th>
-            <th>Actions</th>
-        </tr>
-        </thead>
-        <tbody>
-        {% for player in players %}
-        <!-- Player Row -->
-        <tr>
-            <td>{{ player.nickname }}</td>
-            <td>{{ player.license }}</td>
-            <td>{{ player.current_handicap }}</td>
-            <td>{{ player.handicap_galactico }}</td>
-            <td>
-                <button
-                        class="btn btn-sm btn-info"
-                        onclick="toggleResults('{{ player.id }}')"
-                        type="button">
-                    Show/Hide Results
-                </button>
-            </td>
-        </tr>
+    <script>
+        const DATA_URL = 'data/players.json'; // Adjust path if needed
 
-        <!-- Hidden Results Row -->
-        <tr id="results-{{ player.id }}" class="hidden">
-            <td colspan="5">
-                {% if player_results[player.id] %}
-                <table class="table table-sm table-bordered">
-                    <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Tournament</th>
-                        <th>Club</th>
-                        <th>Form Calc</th>
-                        <th>Handicap</th>
-                        <th>Dif Neto</th>
-                        <th>Res STB</th>
-                        <th>Hdp Inicial</th>
-                        <th>Hdp Final</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    {% for result in player_results[player.id] %}
-                    <tr>
-                        <td>{{ result.fecha }}</td>
-                        <td>{{ result.nombre_torneo }}</td>
-                        <td>{{ result.club }}</td>
-                        <td>{{ result.form_calc }}</td>
-                        <td>{{ result.res_hcp }}</td>
-                        <td>{{ result.dif_neto }}</td>
-                        <td>{{ result.res_stb }}</td>
-                        <td>{{ result.hcp_ini }}</td>
-                        <td>{{ result.hcp_fin }}</td>
-                    </tr>
-                    {% endfor %}
-                    </tbody>
-                </table>
-                {% else %}
-                <p>No results found</p>
-                {% endif %}
-            </td>
-        </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-</div>
+        async function loadData() {
+            const loading = document.getElementById('loading');
+            const errorDiv = document.getElementById('error');
+            const table = document.getElementById('playersTable');
+            const tbody = document.getElementById('playersBody');
+            const lastUpdate = document.getElementById('lastUpdate');
 
-<script>
-    function toggleResults(playerId) {
-        const resultsRow = document.getElementById(`results-${playerId}`);
-        if (resultsRow.classList.contains('hidden')) {
-            resultsRow.classList.remove('hidden');
-        } else {
-            resultsRow.classList.add('hidden');
+            loading.style.display = 'block';
+            errorDiv.classList.add('hidden');
+            table.classList.add('hidden');
+            tbody.innerHTML = '';
+
+            try {
+                const response = await fetch(DATA_URL + '?t=' + Date.now()); // Cache busting
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                
+                const players = await response.json();
+
+                if (players.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="5">No players found.</td></tr>';
+                } else {
+                    players.forEach(player => {
+                        // Player row
+                        const trPlayer = document.createElement('tr');
+                        trPlayer.innerHTML = `
+                            <td>${player.nickname}</td>
+                            <td>${player.license}</td>
+                            <td>${player.current_handicap}</td>
+                            <td>${player.handicap_galactico}</td>
+                            <td>
+                                <button class="btn btn-sm btn-info" onclick="toggleResults('${player.id}')">
+                                    Show/Hide Results
+                                </button>
+                            </td>
+                        `;
+                        tbody.appendChild(trPlayer);
+
+                        // Hidden results row
+                        const trResults = document.createElement('tr');
+                        trResults.id = `results-${player.id}`;
+                        trResults.className = 'hidden';
+                        trResults.innerHTML = `
+                            <td colspan="5">
+                                ${player.results && player.results.length > 0 ? `
+                                    <table class="table table-sm table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Date</th>
+                                                <th>Tournament</th>
+                                                <th>Club</th>
+                                                <th>Form Calc</th>
+                                                <th>Handicap</th>
+                                                <th>Dif Neto</th>
+                                                <th>Res STB</th>
+                                                <th>Hdp Inicial</th>
+                                                <th>Hdp Final</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            ${player.results.map(r => `
+                                                <tr>
+                                                    <td>${r.fecha}</td>
+                                                    <td>${r.nombre_torneo}</td>
+                                                    <td>${r.club}</td>
+                                                    <td>${r.form_calc}</td>
+                                                    <td>${r.res_hcp}</td>
+                                                    <td>${r.dif_neto}</td>
+                                                    <td>${r.res_stb}</td>
+                                                    <td>${r.hcp_ini}</td>
+                                                    <td>${r.hcp_fin}</td>
+                                                </tr>
+                                            `).join('')}
+                                        </tbody>
+                                    </table>
+                                ` : '<p>No results found</p>'}
+                            </td>
+                        `;
+                        tbody.appendChild(trResults);
+                    });
+                }
+
+                // Update last refresh time
+                lastUpdate.textContent = `Last updated: ${new Date().toLocaleString('es-ES')}`;
+                loading.style.display = 'none';
+                table.classList.remove('hidden');
+
+            } catch (err) {
+                loading.style.display = 'none';
+                errorDiv.textContent = 'Error loading data. Try refreshing. (' + err.message + ')';
+                errorDiv.classList.remove('hidden');
+            }
         }
-    }
-</script>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        function toggleResults(playerId) {
+            const row = document.getElementById(`results-${playerId}`);
+            row.classList.toggle('hidden');
+        }
+
+        // Refresh button
+        document.getElementById('refreshBtn').addEventListener('click', loadData);
+
+        // Load on page load
+        loadData();
+    </script>
+
+    <!-- Bootstrap JS (optional, for better styling) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
