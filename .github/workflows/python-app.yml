@@ -6,20 +6,21 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: '0 10 * * 1,2'  # Every Monday and Tuesday at 12:00 UTC # Every Sunday at 00:00 UTC motherfucka
+    - cron: '0 10 * * 1,2'  # Lunes y martes a las 10:00 UTC (12:00 hora peninsular española)
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # Necesario para poder hacer push después
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9' 
+          python-version: '3.9'
 
       - name: Install dependencies
         run: |
@@ -31,13 +32,61 @@ jobs:
           GOLF_USER: ${{ secrets.GOLF_USER }}
           GOLF_PASSWORD: ${{ secrets.GOLF_PASSWORD }}
         run: |
-          python refreshScores.py  # Update with the name of your Python script
+          python refreshScores.py
 
+      - name: Export database to JSON for GitHub Pages
+        run: |
+          python - <<'PY'
+          import sqlite3
+          import json
+          import os
+
+          db_path = "golf.db"  # Asegúrate de que este sea el nombre exacto del archivo
+          if not os.path.exists(db_path):
+              print("Base de datos no encontrada")
+              exit(1)
+
+          conn = sqlite3.connect(db_path)
+          conn.row_factory = sqlite3.Row
+          cur = conn.cursor()
+
+          # Obtener todos los jugadores
+          cur.execute("SELECT * FROM players ORDER BY nickname")
+          players = [dict(row) for row in cur.fetchall()]
+
+          # Para cada jugador, obtener sus resultados
+          for player in players:
+              player_id = player["id"]
+              cur.execute("""
+                  SELECT fecha, nombre_torneo, club, form_calc, res_hcp, 
+                         dif_neto, res_stb, hcp_ini, hcp_fin
+                  FROM results 
+                  WHERE player_id = ? 
+                  ORDER BY fecha DESC
+              """, (player_id,))
+              player["results"] = [dict(row) for row in cur.fetchall()]
+
+          # Crear carpeta data si no existe
+          os.makedirs("data", exist_ok=True)
+
+          # Guardar JSON bonito
+          with open("data/players.json", "w", encoding="utf-8") as f:
+              json.dump(players, f, ensure_ascii=False, indent=2)
+
+          print(f"Exportados {len(players)} jugadores a data/players.json")
+          PY
+
+      - name: Commit and push updated players.json
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/players.json
+          git commit -m "Update scores data (auto-export from DB)" || echo "No changes to commit"
+          git push
+
+      # Opcional: seguir subiendo el .db como artifact para debug
       - name: Upload database artifact
         uses: actions/upload-artifact@v4
         with:
           name: golf-database
           path: golf.db
-    
-
-          
