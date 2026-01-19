@@ -1036,17 +1036,6 @@
         "hcp_fin": 8.0
       },
       {
-        "fecha": "5/2025",
-        "nombre_torneo": "TOP 10 SUMMUM GOLF 2025",
-        "club": "REAL CLUB SEVILLA GOLF",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -2,
-        "res_stb": 34,
-        "hcp_ini": 8.1,
-        "hcp_fin": 8.0
-      },
-      {
         "fecha": "12/2025",
         "nombre_torneo": "ELECTRICITY WINTER GOLF 2025",
         "club": "CLUB HATO VERDE",
@@ -1065,6 +1054,17 @@
         "res_hcp": 28,
         "dif_neto": -8,
         "res_stb": 28,
+        "hcp_ini": 8.9,
+        "hcp_fin": 8.9
+      },
+      {
+        "fecha": "1/2026",
+        "nombre_torneo": "IX CAMPEONATO INDIVIDUAL RCSG",
+        "club": "REAL CLUB SEVILLA GOLF",
+        "form_calc": "MP",
+        "res_hcp": 0,
+        "dif_neto": -11,
+        "res_stb": 25,
         "hcp_ini": 8.9,
         "hcp_fin": 8.9
       }
@@ -1338,17 +1338,6 @@
         "hcp_fin": 17.6
       },
       {
-        "fecha": "8/2025",
-        "nombre_torneo": "VIII TORNEO DE GOLF FUNDACION ISABE",
-        "club": "RODA GOLF COURSE",
-        "form_calc": "ST",
-        "res_hcp": 31,
-        "dif_neto": -5,
-        "res_stb": 31,
-        "hcp_ini": 17.7,
-        "hcp_fin": 17.6
-      },
-      {
         "fecha": "12/2025",
         "nombre_torneo": "Torneo Roll & Golf",
         "club": "CLUB DE GOLF ARANJUEZ",
@@ -1416,6 +1405,17 @@
       },
       {
         "fecha": "1/2026",
+        "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
+        "res_hcp": 22,
+        "dif_neto": -14,
+        "res_stb": 22,
+        "hcp_ini": 20.8,
+        "hcp_fin": 20.8
+      },
+      {
+        "fecha": "1/2026",
         "nombre_torneo": "I CIRCUITO GT TOUR_6ª PRUEBA",
         "club": "CLUB DE GOLF ARANJUEZ",
         "form_calc": "MP",
@@ -1479,17 +1479,6 @@
         "hcp_fin": 12.5
       },
       {
-        "fecha": "4/2025",
-        "nombre_torneo": "Liga Clubes sin Campo Fin de Semana",
-        "club": "LAYOS CASA CAMPO S.A.",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -6,
-        "res_stb": 30,
-        "hcp_ini": 11.9,
-        "hcp_fin": 11.9
-      },
-      {
         "fecha": "12/2025",
         "nombre_torneo": "I TROFEO ANGUS DEL HENARES",
         "club": "Unknown Club (8810)",
@@ -1543,6 +1532,17 @@
         "res_stb": 22,
         "hcp_ini": 12.0,
         "hcp_fin": 12.0
+      },
+      {
+        "fecha": "1/2026",
+        "nombre_torneo": "TROFEO INAUGURAL CCCGOLF 8810",
+        "club": "Unknown Club (8810)",
+        "form_calc": "ST",
+        "res_hcp": 32,
+        "dif_neto": -3,
+        "res_stb": 33,
+        "hcp_ini": 10.9,
+        "hcp_fin": 10.9
       }
     ]
   },
@@ -1574,17 +1574,6 @@
         "res_stb": 28,
         "hcp_ini": 10.7,
         "hcp_fin": 11.5
-      },
-      {
-        "fecha": "8/2025",
-        "nombre_torneo": "2 J. CIRCUITO VNG 2025. CATEGORIA O",
-        "club": "VILLA NUEVA GOLF RESORT",
-        "form_calc": "MP",
-        "res_hcp": 0,
-        "dif_neto": -5,
-        "res_stb": 31,
-        "hcp_ini": 10.7,
-        "hcp_fin": 10.7
       },
       {
         "fecha": "12/2025",
@@ -1651,6 +1640,17 @@
         "res_stb": 30,
         "hcp_ini": 12.0,
         "hcp_fin": 12.0
+      },
+      {
+        "fecha": "1/2026",
+        "nombre_torneo": "CIRCUITO SOCIAL CADIZ CLUB DE GOLF",
+        "club": "MONTECASTILLO BARCELÓ GOLF CLUB",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -6,
+        "res_stb": 30,
+        "hcp_ini": 13.0,
+        "hcp_fin": 13.0
       },
       {
         "fecha": "1/2026",
@@ -2063,17 +2063,6 @@
         "hcp_fin": 12.4
       },
       {
-        "fecha": "6/2025",
-        "nombre_torneo": "Campeonato de Primavera por Equipos",
-        "club": "GOLF SANTANDER S.A.",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": 1,
-        "res_stb": 37,
-        "hcp_ini": 13.4,
-        "hcp_fin": 13.1
-      },
-      {
         "fecha": "11/2025",
         "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
         "club": "CLUB DE GOLF ARANJUEZ",
@@ -2127,6 +2116,17 @@
         "res_stb": 25,
         "hcp_ini": 12.7,
         "hcp_fin": 12.7
+      },
+      {
+        "fecha": "1/2026",
+        "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
+        "res_hcp": 27,
+        "dif_neto": -8,
+        "res_stb": 28,
+        "hcp_ini": 10.1,
+        "hcp_fin": 10.1
       },
       {
         "fecha": "1/2026",
@@ -2264,7 +2264,7 @@
     "id": 22,
     "license": "CM66783350",
     "nickname": "Sute",
-    "current_handicap": 18.7,
+    "current_handicap": 19.5,
     "handicap_galactico": 0.0,
     "results": [
       {
@@ -2334,17 +2334,6 @@
         "hcp_fin": 18.7
       },
       {
-        "fecha": "11/2024",
-        "nombre_torneo": "TORNEO INDIVIDUAL MATCH QUALITY GOL",
-        "club": "CLUB DE GOLF ARANJUEZ",
-        "form_calc": "ST",
-        "res_hcp": 28,
-        "dif_neto": -7,
-        "res_stb": 29,
-        "hcp_ini": 18.3,
-        "hcp_fin": 18.3
-      },
-      {
         "fecha": "10/2025",
         "nombre_torneo": "ANTEQUERA GOLF",
         "club": "ANTEQUERA GOLF",
@@ -2365,6 +2354,17 @@
         "res_stb": 32,
         "hcp_ini": 18.9,
         "hcp_fin": 18.9
+      },
+      {
+        "fecha": "1/2026",
+        "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
+        "res_hcp": 32,
+        "dif_neto": -3,
+        "res_stb": 33,
+        "hcp_ini": 18.7,
+        "hcp_fin": 19.5
       },
       {
         "fecha": "1/2026",
