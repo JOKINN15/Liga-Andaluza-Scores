@@ -2421,14 +2421,14 @@
       },
       {
         "fecha": "8/2025",
-        "nombre_torneo": "8 Prb Liga el Maderal mañana",
+        "nombre_torneo": "8 prb liga el Maderal Tarde",
         "club": "GOLF EL MADERAL",
         "form_calc": "SP",
-        "res_hcp": 62,
-        "dif_neto": -8,
-        "res_stb": 28,
+        "res_hcp": 60,
+        "dif_neto": -7,
+        "res_stb": 29,
         "hcp_ini": 8.1,
-        "hcp_fin": 8.1
+        "hcp_fin": 8.5
       },
       {
         "fecha": "12/2025",
