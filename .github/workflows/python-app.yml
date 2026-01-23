@@ -65,7 +65,7 @@ jobs:
                          dif_neto, res_stb, hcp_ini, hcp_fin
                   FROM results 
                   WHERE player_id = ? 
-                  ORDER BY fecha DESC
+                  ORDER BY fecha ASC
               """, (player_id,))
               player["results"] = [dict(row) for row in cur.fetchall()]
 
