@@ -245,6 +245,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "1/2026",
+        "nombre_torneo": "II Ranking 2026 Club d Golf Marbell",
+        "club": "VILLA PADIERNA GOLF CLUB",
+        "form_calc": "MP",
+        "res_hcp": 97,
+        "dif_neto": -12,
+        "res_stb": 24,
+        "hcp_ini": 10.7,
+        "hcp_fin": 10.7
+      },
+      {
         "fecha": "10/2025",
         "nombre_torneo": "ANTEQUERA GOLF",
         "club": "ANTEQUERA GOLF",
@@ -319,17 +330,6 @@
         "dif_neto": -9,
         "res_stb": 27,
         "hcp_ini": 11.1,
-        "hcp_fin": 11.1
-      },
-      {
-        "fecha": "8/2025",
-        "nombre_torneo": "Major ranking 2025",
-        "club": "ATALAYA GOLF & COUNTRY CLUB INTERNACIONAL, S.A.",
-        "form_calc": "MP",
-        "res_hcp": 86,
-        "dif_neto": -2,
-        "res_stb": 34,
-        "hcp_ini": 11.4,
         "hcp_fin": 11.1
       },
       {
