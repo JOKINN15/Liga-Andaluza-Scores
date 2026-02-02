@@ -62,6 +62,17 @@
         "hcp_fin": 19.4
       },
       {
+        "fecha": "2/2026",
+        "nombre_torneo": "III Ranking 2026 Club d Golf Marbel",
+        "club": "GOLF RÍO REAL",
+        "form_calc": "MP",
+        "res_hcp": 110,
+        "dif_neto": -13,
+        "res_stb": 23,
+        "hcp_ini": 19.4,
+        "hcp_fin": 19.4
+      },
+      {
         "fecha": "8/2025",
         "nombre_torneo": "Ranking Club de Golf Marbella",
         "club": "SANTA CLARA GOLF",
@@ -82,17 +93,6 @@
         "res_stb": 32,
         "hcp_ini": 19.7,
         "hcp_fin": 20.1
-      },
-      {
-        "fecha": "8/2025",
-        "nombre_torneo": "Ranking Club d Golf Marbella",
-        "club": "VILLA PADIERNA GOLF CLUB",
-        "form_calc": "MP",
-        "res_hcp": 97,
-        "dif_neto": -3,
-        "res_stb": 33,
-        "hcp_ini": 19.7,
-        "hcp_fin": 19.7
       },
       {
         "fecha": "9/2025",
@@ -203,14 +203,14 @@
         "hcp_fin": 14.4
       },
       {
-        "fecha": "8/2025",
-        "nombre_torneo": "Ranking Club de Golf Marbella",
-        "club": "SANTA CLARA GOLF",
+        "fecha": "2/2026",
+        "nombre_torneo": "III Ranking 2026 Club d Golf Marbel",
+        "club": "GOLF RÍO REAL",
         "form_calc": "MP",
-        "res_hcp": 85,
-        "dif_neto": 1,
-        "res_stb": 37,
-        "hcp_ini": 14.5,
+        "res_hcp": 96,
+        "dif_neto": -5,
+        "res_stb": 31,
+        "hcp_ini": 14.1,
         "hcp_fin": 14.1
       },
       {
@@ -955,9 +955,20 @@
     "id": 11,
     "license": "AM85801916",
     "nickname": "Fran Turre",
-    "current_handicap": 8.9,
+    "current_handicap": 9.5,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "1/2026",
+        "nombre_torneo": "1a JORNADA CIRCUITO SOCIAL RCSG",
+        "club": "REAL CLUB SEVILLA GOLF",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -5,
+        "res_stb": 31,
+        "hcp_ini": 8.9,
+        "hcp_fin": 9.5
+      },
       {
         "fecha": "1/2026",
         "nombre_torneo": "IX CAMPEONATO INDIVIDUAL RCSG",
@@ -990,17 +1001,6 @@
         "res_stb": 30,
         "hcp_ini": 8.9,
         "hcp_fin": 8.9
-      },
-      {
-        "fecha": "5/2025",
-        "nombre_torneo": "RACE TO LAS COLINAS TROPHY",
-        "club": "REAL CLUB SEVILLA GOLF",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -9,
-        "res_stb": 27,
-        "hcp_ini": 8.0,
-        "hcp_fin": 8.0
       },
       {
         "fecha": "6/2025",
@@ -1197,6 +1197,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "1/2026",
+        "nombre_torneo": "MY GOLF",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -11,
+        "res_stb": 25,
+        "hcp_ini": 19.8,
+        "hcp_fin": 19.8
+      },
+      {
         "fecha": "10/2024",
         "nombre_torneo": "Torneo Heritage World Cup - Leclub",
         "club": "CLUB HATO VERDE",
@@ -1274,17 +1285,6 @@
         "hcp_fin": 20.0
       },
       {
-        "fecha": "8/2024",
-        "nombre_torneo": "TORNEO CALLAWAY",
-        "club": "GOLF EL ROMPIDO",
-        "form_calc": "ST",
-        "res_hcp": 32,
-        "dif_neto": -2,
-        "res_stb": 34,
-        "hcp_ini": 19.6,
-        "hcp_fin": 19.5
-      },
-      {
         "fecha": "9/2024",
         "nombre_torneo": "IX T. DE GOLF PROYECTO HOMBRE SEVIL",
         "club": "REAL CLUB SEVILLA GOLF",
@@ -1312,7 +1312,7 @@
     "id": 14,
     "license": "CM41794451",
     "nickname": "JOKKIN",
-    "current_handicap": 20.8,
+    "current_handicap": 20.5,
     "handicap_galactico": 0.0,
     "results": [
       {
@@ -1404,6 +1404,17 @@
         "hcp_fin": 20.5
       },
       {
+        "fecha": "2/2026",
+        "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
+        "res_hcp": 35,
+        "dif_neto": 0,
+        "res_stb": 36,
+        "hcp_ini": 20.8,
+        "hcp_fin": 20.5
+      },
+      {
         "fecha": "9/2025",
         "nombre_torneo": "COPA ARANJUEZ - Jornada 2",
         "club": "Unknown Club (0000)",
@@ -1413,17 +1424,6 @@
         "res_stb": 36,
         "hcp_ini": 17.6,
         "hcp_fin": 17.8
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "COPA ARANJUEZ - Jornada 1",
-        "club": "CLUB DE GOLF ARANJUEZ",
-        "form_calc": "MP",
-        "res_hcp": 102,
-        "dif_neto": -11,
-        "res_stb": 25,
-        "hcp_ini": 17.6,
-        "hcp_fin": 17.6
       }
     ]
   },
@@ -1550,9 +1550,20 @@
     "id": 13,
     "license": "AMC9819581",
     "nickname": "Lolo_Zulueta",
-    "current_handicap": 13.0,
+    "current_handicap": 13.8,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "1/2026",
+        "nombre_torneo": "1 J. CIRCUITO VNG 2026. CATEGORIA O",
+        "club": "VILLA NUEVA GOLF RESORT",
+        "form_calc": "MP",
+        "res_hcp": 0,
+        "dif_neto": -3,
+        "res_stb": 33,
+        "hcp_ini": 13.0,
+        "hcp_fin": 13.8
+      },
       {
         "fecha": "1/2026",
         "nombre_torneo": "CIRCUITO SOCIAL CADIZ CLUB DE GOLF",
@@ -1651,17 +1662,6 @@
         "res_stb": 30,
         "hcp_ini": 11.5,
         "hcp_fin": 12.0
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "3 J. CIRCUITO VNG 2025. CATEGORIA O",
-        "club": "VILLA NUEVA GOLF RESORT",
-        "form_calc": "MP",
-        "res_hcp": 0,
-        "dif_neto": -8,
-        "res_stb": 28,
-        "hcp_ini": 10.7,
-        "hcp_fin": 11.5
       }
     ]
   },
@@ -1847,15 +1847,15 @@
         "hcp_fin": 15.7
       },
       {
-        "fecha": "7/2025",
-        "nombre_torneo": "XXI Torneo Ranking Clu d Golf Marbe",
-        "club": "MIJAS GOLF INTERNACIONAL",
+        "fecha": "2/2026",
+        "nombre_torneo": "III Ranking 2026 Club d Golf Marbel",
+        "club": "GOLF RÍO REAL",
         "form_calc": "MP",
         "res_hcp": 96,
-        "dif_neto": -2,
-        "res_stb": 34,
-        "hcp_ini": 19.1,
-        "hcp_fin": 19.2
+        "dif_neto": -4,
+        "res_stb": 32,
+        "hcp_ini": 14.9,
+        "hcp_fin": 14.9
       },
       {
         "fecha": "8/2025",
@@ -2107,15 +2107,15 @@
         "hcp_fin": 11.0
       },
       {
-        "fecha": "8/2025",
-        "nombre_torneo": "Circuito Heineken",
-        "club": "ISLA CANELA LINKS",
+        "fecha": "2/2026",
+        "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
+        "club": "CLUB DE GOLF ARANJUEZ",
         "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": 1,
-        "res_stb": 37,
-        "hcp_ini": 13.1,
-        "hcp_fin": 12.4
+        "res_hcp": 27,
+        "dif_neto": -8,
+        "res_stb": 28,
+        "hcp_ini": 10.1,
+        "hcp_fin": 10.1
       },
       {
         "fecha": "9/2025",
@@ -2257,6 +2257,125 @@
         "res_stb": 35,
         "hcp_ini": 16.6,
         "hcp_fin": 16.5
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "license": "AMC3695184",
+    "nickname": "Ricardo Luque",
+    "current_handicap": 18.7,
+    "handicap_galactico": 0.0,
+    "results": [
+      {
+        "fecha": "1/2026",
+        "nombre_torneo": "MY GOLF",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -5,
+        "res_stb": 31,
+        "hcp_ini": 18.7,
+        "hcp_fin": 18.7
+      },
+      {
+        "fecha": "1/2026",
+        "nombre_torneo": "LUNES AL GOLF J3 (TARDE 15:45)",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": 2,
+        "res_stb": 38,
+        "hcp_ini": 18.9,
+        "hcp_fin": 18.7
+      },
+      {
+        "fecha": "10/2025",
+        "nombre_torneo": "LUNES AL GOLF J1 (17:00)",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 19.1,
+        "hcp_fin": 19.1
+      },
+      {
+        "fecha": "11/2025",
+        "nombre_torneo": "V Copa Hato Verde",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "MP",
+        "res_hcp": 0,
+        "dif_neto": -7,
+        "res_stb": 29,
+        "hcp_ini": 18.9,
+        "hcp_fin": 19.1
+      },
+      {
+        "fecha": "11/2025",
+        "nombre_torneo": "V Copa Hato Verde",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "MP",
+        "res_hcp": 0,
+        "dif_neto": 3,
+        "res_stb": 39,
+        "hcp_ini": 19.5,
+        "hcp_fin": 18.9
+      },
+      {
+        "fecha": "11/2025",
+        "nombre_torneo": "CIRCUITO SC AMBASSADOR CLUB 2025",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -8,
+        "res_stb": 28,
+        "hcp_ini": 19.1,
+        "hcp_fin": 19.5
+      },
+      {
+        "fecha": "11/2025",
+        "nombre_torneo": "LeClub - SOMABAY WORLD CUP",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -4,
+        "res_stb": 32,
+        "hcp_ini": 19.1,
+        "hcp_fin": 19.1
+      },
+      {
+        "fecha": "12/2025",
+        "nombre_torneo": "TORNEO FIN DE ANO",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -1,
+        "res_stb": 35,
+        "hcp_ini": 19.1,
+        "hcp_fin": 18.9
+      },
+      {
+        "fecha": "9/2025",
+        "nombre_torneo": "LIGA EXPRESS, JUEVES 18 DE SEPTIEMB",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": 1,
+        "res_stb": 37,
+        "hcp_ini": 19.4,
+        "hcp_fin": 19.1
+      },
+      {
+        "fecha": "9/2025",
+        "nombre_torneo": "LIGA EXPRESS, JUEVES 11 DE SEPTIEMB",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": 1,
+        "res_stb": 37,
+        "hcp_ini": 18.9,
+        "hcp_fin": 19.4
       }
     ]
   },
