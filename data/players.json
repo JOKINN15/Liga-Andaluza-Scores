@@ -2356,6 +2356,17 @@
         "hcp_fin": 18.9
       },
       {
+        "fecha": "2/2026",
+        "nombre_torneo": "LUNES AL GOLF J4( TARDE 15:45)",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": 0,
+        "res_stb": 36,
+        "hcp_ini": 18.7,
+        "hcp_fin": 18.7
+      },
+      {
         "fecha": "9/2025",
         "nombre_torneo": "LIGA EXPRESS, JUEVES 18 DE SEPTIEMB",
         "club": "CLUB HATO VERDE",
@@ -2365,17 +2376,6 @@
         "res_stb": 37,
         "hcp_ini": 19.4,
         "hcp_fin": 19.1
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "LIGA EXPRESS, JUEVES 11 DE SEPTIEMB",
-        "club": "CLUB HATO VERDE",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": 1,
-        "res_stb": 37,
-        "hcp_ini": 18.9,
-        "hcp_fin": 19.4
       }
     ]
   },
