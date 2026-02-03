@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: '0 10 * * 1,2'  # Lunes y martes a las 10:00 UTC (12:00 hora peninsular española)
+    - cron: '0 10 * * 1,2' # Lunes y martes a las 10:00 UTC (12:00 hora peninsular española)
 
 permissions:
   contents: write
@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Necesario para poder hacer push después
+          token: ${{ secrets.GITHUB_TOKEN }} # Necesario para poder hacer push después
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -44,7 +44,7 @@ jobs:
           import json
           import os
 
-          db_path = "golf.db"  # Asegúrate de que este sea el nombre exacto del archivo
+          db_path = "golf.db"
           if not os.path.exists(db_path):
               print("Base de datos no encontrada")
               exit(1)
@@ -57,19 +57,19 @@ jobs:
           cur.execute("SELECT * FROM players ORDER BY nickname")
           players = [dict(row) for row in cur.fetchall()]
 
-          # Para cada jugador, obtener sus resultados
+          # Para cada jugador, obtener sus resultados — con orden cronológico correcto
           for player in players:
               player_id = player["id"]
               cur.execute("""
                   SELECT fecha, nombre_torneo, club, form_calc, res_hcp,
-                      dif_neto, res_stb, hcp_ini, hcp_fin
+                         dif_neto, res_stb, hcp_ini, hcp_fin
                   FROM results
                   WHERE player_id = ?
                   ORDER BY 
-                      CAST(SUBSTR(fecha, instr(fecha, '/') + 1) AS INTEGER) ASC,   -- año
-                      CAST(SUBSTR(fecha, 1, instr(fecha, '/') - 1) AS INTEGER) ASC -- mes
-            """, (player_id,))
-          player["results"] = [dict(row) for row in cur.fetchall()]
+                      CAST(SUBSTR(fecha, instr(fecha, '/') + 1) AS INTEGER) ASC,   -- año primero
+                      CAST(SUBSTR(fecha, 1, instr(fecha, '/') - 1) AS INTEGER) ASC -- mes después
+              """, (player_id,))
+              player["results"] = [dict(row) for row in cur.fetchall()]
 
           # Crear carpeta data si no existe
           os.makedirs("data", exist_ok=True)
@@ -89,7 +89,7 @@ jobs:
           git commit -m "Update scores data (auto-export from DB)" || echo "No changes to commit"
           git push
 
-      # Opcional: seguir subiendo el .db como artifact para debug
+      # Opcional: subir la base de datos como artifact (útil para debug)
       - name: Upload database artifact
         uses: actions/upload-artifact@v4
         with:
