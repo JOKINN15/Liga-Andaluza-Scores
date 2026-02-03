@@ -66,8 +66,8 @@ jobs:
                   FROM results
                   WHERE player_id = ?
                   ORDER BY 
-                      CAST(SUBSTR(fecha, instr(fecha, '/') + 1) AS INTEGER) ASC,   -- año primero
-                      CAST(SUBSTR(fecha, 1, instr(fecha, '/') - 1) AS INTEGER) ASC -- mes después
+                      CAST(SUBSTR(fecha, instr(fecha, '/') + 1) AS INTEGER) DESC,   -- año primero
+                      CAST(SUBSTR(fecha, 1, instr(fecha, '/') - 1) AS INTEGER) DESC -- mes después
               """, (player_id,))
               player["results"] = [dict(row) for row in cur.fetchall()]
 
