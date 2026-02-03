@@ -61,13 +61,15 @@ jobs:
           for player in players:
               player_id = player["id"]
               cur.execute("""
-                  SELECT fecha, nombre_torneo, club, form_calc, res_hcp, 
-                         dif_neto, res_stb, hcp_ini, hcp_fin
-                  FROM results 
-                  WHERE player_id = ? 
-                  ORDER BY fecha ASC
-              """, (player_id,))
-              player["results"] = [dict(row) for row in cur.fetchall()]
+                  SELECT fecha, nombre_torneo, club, form_calc, res_hcp,
+                      dif_neto, res_stb, hcp_ini, hcp_fin
+                  FROM results
+                  WHERE player_id = ?
+                  ORDER BY 
+                      CAST(SUBSTR(fecha, instr(fecha, '/') + 1) AS INTEGER) ASC,   -- año
+                      CAST(SUBSTR(fecha, 1, instr(fecha, '/') - 1) AS INTEGER) ASC -- mes
+            """, (player_id,))
+          player["results"] = [dict(row) for row in cur.fetchall()]
 
           # Crear carpeta data si no existe
           os.makedirs("data", exist_ok=True)
