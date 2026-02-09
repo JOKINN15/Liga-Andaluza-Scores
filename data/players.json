@@ -1320,6 +1320,17 @@
         "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
         "club": "CLUB DE GOLF ARANJUEZ",
         "form_calc": "ST",
+        "res_hcp": 25,
+        "dif_neto": -11,
+        "res_stb": 25,
+        "hcp_ini": 20.5,
+        "hcp_fin": 20.5
+      },
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
         "res_hcp": 35,
         "dif_neto": 0,
         "res_stb": 36,
@@ -1412,17 +1423,6 @@
         "dif_neto": -5,
         "res_stb": 31,
         "hcp_ini": 17.8,
-        "hcp_fin": 17.8
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "COPA ARANJUEZ - Jornada 2",
-        "club": "Unknown Club (0000)",
-        "form_calc": "MP",
-        "res_hcp": null,
-        "dif_neto": 0,
-        "res_stb": 36,
-        "hcp_ini": 17.6,
         "hcp_fin": 17.8
       }
     ]
