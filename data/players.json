@@ -3,9 +3,20 @@
     "id": 1,
     "license": "AM93440721",
     "nickname": "ADLO",
-    "current_handicap": 19.4,
+    "current_handicap": 19.9,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "IV Ranking 2026 Club d Golf Marbell",
+        "club": "GOLF MARBELLA & COUNTRY CLUB",
+        "form_calc": "ST",
+        "res_hcp": 25,
+        "dif_neto": -7,
+        "res_stb": 29,
+        "hcp_ini": 19.4,
+        "hcp_fin": 19.9
+      },
       {
         "fecha": "2/2026",
         "nombre_torneo": "III Ranking 2026 Club d Golf Marbel",
@@ -104,17 +115,6 @@
         "res_stb": 29,
         "hcp_ini": 20.1,
         "hcp_fin": 20.1
-      },
-      {
-        "fecha": "8/2025",
-        "nombre_torneo": "Major ranking 2025",
-        "club": "ATALAYA GOLF & COUNTRY CLUB INTERNACIONAL, S.A.",
-        "form_calc": "MP",
-        "res_hcp": 98,
-        "dif_neto": -4,
-        "res_stb": 32,
-        "hcp_ini": 19.7,
-        "hcp_fin": 20.1
       }
     ]
   },
@@ -125,6 +125,17 @@
     "current_handicap": 14.1,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "IV Ranking 2026 Club d Golf Marbell",
+        "club": "GOLF MARBELLA & COUNTRY CLUB",
+        "form_calc": "ST",
+        "res_hcp": 32,
+        "dif_neto": -1,
+        "res_stb": 35,
+        "hcp_ini": 14.1,
+        "hcp_fin": 14.1
+      },
       {
         "fecha": "2/2026",
         "nombre_torneo": "III Ranking 2026 Club d Golf Marbel",
@@ -223,17 +234,6 @@
         "res_stb": 27,
         "hcp_ini": 14.1,
         "hcp_fin": 14.9
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "XXVIII Torneo Feria de Istan",
-        "club": "GOLF RÍO REAL",
-        "form_calc": "ST",
-        "res_hcp": 30,
-        "dif_neto": -6,
-        "res_stb": 30,
-        "hcp_ini": 14.1,
-        "hcp_fin": 14.1
       }
     ]
   },
@@ -241,9 +241,20 @@
     "id": 15,
     "license": "AM93802309",
     "nickname": "BRUGA RK",
-    "current_handicap": 10.7,
+    "current_handicap": 11.3,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "IV Ranking 2026 Club d Golf Marbell",
+        "club": "GOLF MARBELLA & COUNTRY CLUB",
+        "form_calc": "ST",
+        "res_hcp": 15,
+        "dif_neto": -19,
+        "res_stb": 17,
+        "hcp_ini": 10.7,
+        "hcp_fin": 11.3
+      },
       {
         "fecha": "1/2026",
         "nombre_torneo": "II Ranking 2026 Club d Golf Marbell",
@@ -342,17 +353,6 @@
         "res_stb": 19,
         "hcp_ini": 11.1,
         "hcp_fin": 11.1
-      },
-      {
-        "fecha": "8/2025",
-        "nombre_torneo": "Ranking Club de Golf Marbella",
-        "club": "SANTA CLARA GOLF",
-        "form_calc": "MP",
-        "res_hcp": 93,
-        "dif_neto": -9,
-        "res_stb": 27,
-        "hcp_ini": 11.1,
-        "hcp_fin": 11.1
       }
     ]
   },
@@ -360,9 +360,20 @@
     "id": 21,
     "license": "AMB5602498",
     "nickname": "Carlos Pérez",
-    "current_handicap": 19.4,
+    "current_handicap": 19.6,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "IV Ranking 2026 Club d Golf Marbell",
+        "club": "GOLF MARBELLA & COUNTRY CLUB",
+        "form_calc": "ST",
+        "res_hcp": 27,
+        "dif_neto": -6,
+        "res_stb": 30,
+        "hcp_ini": 19.4,
+        "hcp_fin": 19.6
+      },
       {
         "fecha": "11/2025",
         "nombre_torneo": "Final Ranking 2025",
@@ -461,17 +472,6 @@
         "res_stb": 33,
         "hcp_ini": 19.8,
         "hcp_fin": 20.0
-      },
-      {
-        "fecha": "5/2025",
-        "nombre_torneo": "XIV Torneo Club de Golf Marbella",
-        "club": "MIRAFLORES GOLF",
-        "form_calc": "MP",
-        "res_hcp": 100,
-        "dif_neto": -7,
-        "res_stb": 29,
-        "hcp_ini": 19.8,
-        "hcp_fin": 19.8
       }
     ]
   },
@@ -1788,9 +1788,20 @@
     "id": 5,
     "license": "AM93370327",
     "nickname": "Manu",
-    "current_handicap": 14.9,
+    "current_handicap": 15.3,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "IV Ranking 2026 Club d Golf Marbell",
+        "club": "GOLF MARBELLA & COUNTRY CLUB",
+        "form_calc": "ST",
+        "res_hcp": 24,
+        "dif_neto": -9,
+        "res_stb": 27,
+        "hcp_ini": 14.9,
+        "hcp_fin": 15.3
+      },
       {
         "fecha": "2/2026",
         "nombre_torneo": "III Ranking 2026 Club d Golf Marbel",
@@ -1889,17 +1900,6 @@
         "res_stb": 42,
         "hcp_ini": 19.1,
         "hcp_fin": 18.4
-      },
-      {
-        "fecha": "8/2025",
-        "nombre_torneo": "Major ranking 2025",
-        "club": "ATALAYA GOLF & COUNTRY CLUB INTERNACIONAL, S.A.",
-        "form_calc": "MP",
-        "res_hcp": 95,
-        "dif_neto": -2,
-        "res_stb": 34,
-        "hcp_ini": 19.2,
-        "hcp_fin": 19.1
       }
     ]
   },
@@ -2145,9 +2145,20 @@
     "id": 16,
     "license": "AM96627451",
     "nickname": "Pierre",
-    "current_handicap": 17.8,
+    "current_handicap": 17.9,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "CAMALEON",
+        "club": "LA MONACILLA GOLF CLUB",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 17.8,
+        "hcp_fin": 17.9
+      },
       {
         "fecha": "1/2026",
         "nombre_torneo": "16ª Jornada Camaleón Golf 25/26",
@@ -2246,17 +2257,6 @@
         "res_stb": 32,
         "hcp_ini": 15.4,
         "hcp_fin": 15.9
-      },
-      {
-        "fecha": "7/2025",
-        "nombre_torneo": "FINAL TEMPORADA CAMALEÓN GOLF 24/25",
-        "club": "ISLA CANELA OLD COURSE",
-        "form_calc": "ST",
-        "res_hcp": 33,
-        "dif_neto": -4,
-        "res_stb": 32,
-        "hcp_ini": 15.4,
-        "hcp_fin": 15.4
       }
     ]
   },
