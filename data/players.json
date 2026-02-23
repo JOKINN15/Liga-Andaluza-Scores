@@ -3,9 +3,20 @@
     "id": 1,
     "license": "AM93440721",
     "nickname": "ADLO",
-    "current_handicap": 19.9,
+    "current_handicap": 20.6,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "V Ranking 2026 Club d Golf Marbella",
+        "club": "SANTA CLARA GOLF",
+        "form_calc": "MP",
+        "res_hcp": 108,
+        "dif_neto": -15,
+        "res_stb": 21,
+        "hcp_ini": 19.9,
+        "hcp_fin": 20.6
+      },
       {
         "fecha": "2/2026",
         "nombre_torneo": "IV Ranking 2026 Club d Golf Marbell",
@@ -104,17 +115,6 @@
         "res_stb": 31,
         "hcp_ini": 20.1,
         "hcp_fin": 20.1
-      },
-      {
-        "fecha": "8/2025",
-        "nombre_torneo": "Ranking Club de Golf Marbella",
-        "club": "SANTA CLARA GOLF",
-        "form_calc": "MP",
-        "res_hcp": 100,
-        "dif_neto": -7,
-        "res_stb": 29,
-        "hcp_ini": 20.1,
-        "hcp_fin": 20.1
       }
     ]
   },
@@ -122,9 +122,20 @@
     "id": 7,
     "license": "AM00609439",
     "nickname": "Alfonso LL",
-    "current_handicap": 14.1,
+    "current_handicap": 13.8,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "V Ranking 2026 Club d Golf Marbella",
+        "club": "SANTA CLARA GOLF",
+        "form_calc": "MP",
+        "res_hcp": 84,
+        "dif_neto": 2,
+        "res_stb": 38,
+        "hcp_ini": 14.1,
+        "hcp_fin": 13.8
+      },
       {
         "fecha": "2/2026",
         "nombre_torneo": "IV Ranking 2026 Club d Golf Marbell",
@@ -223,17 +234,6 @@
         "res_stb": 37,
         "hcp_ini": 14.9,
         "hcp_fin": 14.5
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "XXVIII Torneo ranking 2025",
-        "club": "EL CHAPARRAL GOLF CLUB",
-        "form_calc": "MP",
-        "res_hcp": 97,
-        "dif_neto": -9,
-        "res_stb": 27,
-        "hcp_ini": 14.1,
-        "hcp_fin": 14.9
       }
     ]
   },
@@ -244,6 +244,17 @@
     "current_handicap": 11.3,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "V Ranking 2026 Club d Golf Marbella",
+        "club": "SANTA CLARA GOLF",
+        "form_calc": "MP",
+        "res_hcp": 97,
+        "dif_neto": -10,
+        "res_stb": 26,
+        "hcp_ini": 11.3,
+        "hcp_fin": 11.3
+      },
       {
         "fecha": "2/2026",
         "nombre_torneo": "IV Ranking 2026 Club d Golf Marbell",
@@ -340,17 +351,6 @@
         "res_hcp": 90,
         "dif_neto": -7,
         "res_stb": 29,
-        "hcp_ini": 11.1,
-        "hcp_fin": 11.1
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "XXVIII Torneo ranking 2025",
-        "club": "EL CHAPARRAL GOLF CLUB",
-        "form_calc": "MP",
-        "res_hcp": 103,
-        "dif_neto": -17,
-        "res_stb": 19,
         "hcp_ini": 11.1,
         "hcp_fin": 11.1
       }
@@ -959,6 +959,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "2/2026",
+        "nombre_torneo": "XVI CIRCUITO SAN MIGUEL ANDALUCIA G",
+        "club": "REAL CLUB SEVILLA GOLF",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -10,
+        "res_stb": 26,
+        "hcp_ini": 9.5,
+        "hcp_fin": 9.5
+      },
+      {
         "fecha": "1/2026",
         "nombre_torneo": "1a JORNADA CIRCUITO SOCIAL RCSG",
         "club": "REAL CLUB SEVILLA GOLF",
@@ -1056,17 +1067,6 @@
         "res_stb": 35,
         "hcp_ini": 8.1,
         "hcp_fin": 8.0
-      },
-      {
-        "fecha": "6/2025",
-        "nombre_torneo": "LA PATRONA 2025",
-        "club": "MONTECASTILLO BARCELÓ GOLF CLUB",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -6,
-        "res_stb": 30,
-        "hcp_ini": 8.0,
-        "hcp_fin": 8.1
       }
     ]
   },
@@ -1312,9 +1312,20 @@
     "id": 14,
     "license": "CM41794451",
     "nickname": "JOKKIN",
-    "current_handicap": 20.5,
+    "current_handicap": 19.8,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "Torneo Roll & Golf",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
+        "res_hcp": 37,
+        "dif_neto": 2,
+        "res_stb": 38,
+        "hcp_ini": 20.5,
+        "hcp_fin": 19.8
+      },
       {
         "fecha": "2/2026",
         "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
@@ -1413,17 +1424,6 @@
         "res_stb": 27,
         "hcp_ini": 17.8,
         "hcp_fin": 18.8
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
-        "club": "CLUB DE GOLF ARANJUEZ",
-        "form_calc": "ST",
-        "res_hcp": 31,
-        "dif_neto": -5,
-        "res_stb": 31,
-        "hcp_ini": 17.8,
-        "hcp_fin": 17.8
       }
     ]
   },
@@ -1793,6 +1793,17 @@
     "results": [
       {
         "fecha": "2/2026",
+        "nombre_torneo": "V Ranking 2026 Club d Golf Marbella",
+        "club": "SANTA CLARA GOLF",
+        "form_calc": "MP",
+        "res_hcp": 98,
+        "dif_neto": -11,
+        "res_stb": 25,
+        "hcp_ini": 15.3,
+        "hcp_fin": 15.3
+      },
+      {
+        "fecha": "2/2026",
         "nombre_torneo": "IV Ranking 2026 Club d Golf Marbell",
         "club": "GOLF MARBELLA & COUNTRY CLUB",
         "form_calc": "ST",
@@ -1889,17 +1900,6 @@
         "res_stb": 33,
         "hcp_ini": 18.4,
         "hcp_fin": 18.3
-      },
-      {
-        "fecha": "8/2025",
-        "nombre_torneo": "Ranking Club de Golf Marbella",
-        "club": "SANTA CLARA GOLF",
-        "form_calc": "MP",
-        "res_hcp": 86,
-        "dif_neto": 6,
-        "res_stb": 42,
-        "hcp_ini": 19.1,
-        "hcp_fin": 18.4
       }
     ]
   },
@@ -2502,9 +2502,42 @@
     "id": 20,
     "license": "7773790872",
     "nickname": "jmrojano",
-    "current_handicap": 8.8,
+    "current_handicap": 9.2,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "FASE LOCAL GPJCYL",
+        "club": "CLUB DEPORTIVO GOLF SOTOVERDE",
+        "form_calc": "ST",
+        "res_hcp": 26,
+        "dif_neto": -9,
+        "res_stb": 27,
+        "hcp_ini": 9.2,
+        "hcp_fin": 9.2
+      },
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "I Prueba del Circuito de P P de CyL",
+        "club": "ESCUELA DE GOLF DE CASTILLA Y LEON",
+        "form_calc": "SP",
+        "res_hcp": 0,
+        "dif_neto": -5,
+        "res_stb": 31,
+        "hcp_ini": 8.8,
+        "hcp_fin": 8.8
+      },
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "I Prueba del Circuito de P P de CyL",
+        "club": "ESCUELA DE GOLF DE CASTILLA Y LEON",
+        "form_calc": "SP",
+        "res_hcp": 0,
+        "dif_neto": -3,
+        "res_stb": 33,
+        "hcp_ini": 8.8,
+        "hcp_fin": 9.2
+      },
       {
         "fecha": "1/2026",
         "nombre_torneo": "I Prueba liga 2026 el Maderal",
@@ -2581,39 +2614,6 @@
         "res_stb": 33,
         "hcp_ini": 8.5,
         "hcp_fin": 8.5
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "9 prb el Maderal tarde",
-        "club": "GOLF EL MADERAL",
-        "form_calc": "SP",
-        "res_hcp": 59,
-        "dif_neto": -6,
-        "res_stb": 30,
-        "hcp_ini": 8.5,
-        "hcp_fin": 8.5
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "Final Campeonato Regional de Castil",
-        "club": "CLUB DE GOLF ENTREPINOS",
-        "form_calc": "SP",
-        "res_hcp": 0,
-        "dif_neto": -10,
-        "res_stb": 26,
-        "hcp_ini": 8.5,
-        "hcp_fin": 8.5
-      },
-      {
-        "fecha": "8/2025",
-        "nombre_torneo": "8 Prb Liga el Maderal mañana",
-        "club": "GOLF EL MADERAL",
-        "form_calc": "SP",
-        "res_hcp": 62,
-        "dif_neto": -8,
-        "res_stb": 28,
-        "hcp_ini": 8.1,
-        "hcp_fin": 8.1
       }
     ]
   },
