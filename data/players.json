@@ -2264,9 +2264,20 @@
     "id": 23,
     "license": "AMC3695184",
     "nickname": "Ricardo Luque",
-    "current_handicap": 18.3,
+    "current_handicap": 18.4,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "LUNES AL GOLF J7 (TARDE 15:45)",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -4,
+        "res_stb": 32,
+        "hcp_ini": 18.3,
+        "hcp_fin": 18.4
+      },
       {
         "fecha": "2/2026",
         "nombre_torneo": "LUNES AL GOLF J6 ( TARDE 15:45)",
@@ -2363,17 +2374,6 @@
         "res_hcp": 0,
         "dif_neto": -4,
         "res_stb": 32,
-        "hcp_ini": 19.1,
-        "hcp_fin": 19.1
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "LUNES AL GOLF J1 (17:00)",
-        "club": "CLUB HATO VERDE",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -2,
-        "res_stb": 34,
         "hcp_ini": 19.1,
         "hcp_fin": 19.1
       }
