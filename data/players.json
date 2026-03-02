@@ -602,6 +602,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "2/2026",
+        "nombre_torneo": "TORNEO SANTA APOLONIA 2026",
+        "club": "CLUB DE GOLF ALTORREAL",
+        "form_calc": "ST",
+        "res_hcp": 25,
+        "dif_neto": -10,
+        "res_stb": 26,
+        "hcp_ini": 20.3,
+        "hcp_fin": 20.3
+      },
+      {
         "fecha": "11/2025",
         "nombre_torneo": "T. DE GOLF ESTRELLA DE LEVANTE SÁB.",
         "club": "CLUB DE GOLF ALTORREAL",
@@ -693,17 +704,6 @@
         "fecha": "9/2024",
         "nombre_torneo": "TORNEO CIUDAD DE MULA 2024",
         "club": "CLUB DE GOLF ALTORREAL",
-        "form_calc": "ST",
-        "res_hcp": 24,
-        "dif_neto": -11,
-        "res_stb": 25,
-        "hcp_ini": 21.4,
-        "hcp_fin": 21.4
-      },
-      {
-        "fecha": "7/2024",
-        "nombre_torneo": "III TORNEO INTERCOLEGIOS COSTA CALI",
-        "club": "EL VALLE GOLF",
         "form_calc": "ST",
         "res_hcp": 24,
         "dif_neto": -11,
@@ -2149,6 +2149,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "3/2026",
+        "nombre_torneo": "23a JORNADA CAMALEON GOLF 25/26",
+        "club": "ISLA CANELA LINKS",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -4,
+        "res_stb": 32,
+        "hcp_ini": 17.9,
+        "hcp_fin": 17.9
+      },
+      {
         "fecha": "2/2026",
         "nombre_torneo": "CAMALEON",
         "club": "LA MONACILLA GOLF CLUB",
@@ -2246,17 +2257,6 @@
         "res_stb": 30,
         "hcp_ini": 15.9,
         "hcp_fin": 16.6
-      },
-      {
-        "fecha": "7/2025",
-        "nombre_torneo": "Circuito ATLANTICO",
-        "club": "ISLA CANELA OLD COURSE",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -4,
-        "res_stb": 32,
-        "hcp_ini": 15.4,
-        "hcp_fin": 15.9
       }
     ]
   },
@@ -2502,9 +2502,31 @@
     "id": 20,
     "license": "7773790872",
     "nickname": "jmrojano",
-    "current_handicap": 9.2,
+    "current_handicap": 9.3,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "PEÑA GARBANZO 19",
+        "club": "ALDEAMAYOR CLUB DE GOLF",
+        "form_calc": "ST",
+        "res_hcp": 35,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 9.2,
+        "hcp_fin": 9.3
+      },
+      {
+        "fecha": "2/2026",
+        "nombre_torneo": "XXXII GP JCYL (FASE LOCAL) CATEGOR",
+        "club": "ESCUELA DE GOLF DE CASTILLA Y LEON",
+        "form_calc": "ST",
+        "res_hcp": 35,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 9.2,
+        "hcp_fin": 9.2
+      },
       {
         "fecha": "2/2026",
         "nombre_torneo": "FASE LOCAL GPJCYL",
@@ -2592,28 +2614,6 @@
         "res_stb": 34,
         "hcp_ini": 8.5,
         "hcp_fin": 9.0
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "10 prb liga el Maderal",
-        "club": "GOLF EL MADERAL",
-        "form_calc": "SP",
-        "res_hcp": 63,
-        "dif_neto": -9,
-        "res_stb": 27,
-        "hcp_ini": 8.5,
-        "hcp_fin": 8.5
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "9 prb liga El Maderal mañana",
-        "club": "GOLF EL MADERAL",
-        "form_calc": "SP",
-        "res_hcp": 56,
-        "dif_neto": -3,
-        "res_stb": 33,
-        "hcp_ini": 8.5,
-        "hcp_fin": 8.5
       }
     ]
   },
