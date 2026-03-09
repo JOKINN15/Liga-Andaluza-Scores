@@ -7,6 +7,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "3/2026",
+        "nombre_torneo": "COMPETICION SEMANAL 07/03/26",
+        "club": "LAURO GOLF",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -5,
+        "res_stb": 31,
+        "hcp_ini": 20.6,
+        "hcp_fin": 20.6
+      },
+      {
         "fecha": "2/2026",
         "nombre_torneo": "V Ranking 2026 Club d Golf Marbella",
         "club": "SANTA CLARA GOLF",
@@ -104,17 +115,6 @@
         "res_stb": 38,
         "hcp_ini": 20.1,
         "hcp_fin": 19.6
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "XXVIII Torneo Feria de Istan",
-        "club": "GOLF RÍO REAL",
-        "form_calc": "ST",
-        "res_hcp": 30,
-        "dif_neto": -5,
-        "res_stb": 31,
-        "hcp_ini": 20.1,
-        "hcp_fin": 20.1
       }
     ]
   },
@@ -955,9 +955,20 @@
     "id": 11,
     "license": "AM85801916",
     "nickname": "Fran Turre",
-    "current_handicap": 9.5,
+    "current_handicap": 9.7,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "I CIRCUITO SOCIAL RCSG 3a JORNADA",
+        "club": "REAL CLUB SEVILLA GOLF",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 9.5,
+        "hcp_fin": 9.7
+      },
       {
         "fecha": "2/2026",
         "nombre_torneo": "XVI CIRCUITO SAN MIGUEL ANDALUCIA G",
@@ -1055,17 +1066,6 @@
         "dif_neto": -11,
         "res_stb": 25,
         "hcp_ini": 8.0,
-        "hcp_fin": 8.0
-      },
-      {
-        "fecha": "6/2025",
-        "nombre_torneo": "SOMABAY WORLD CUP",
-        "club": "REAL CLUB SEVILLA GOLF",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -1,
-        "res_stb": 35,
-        "hcp_ini": 8.1,
         "hcp_fin": 8.0
       }
     ]
@@ -1316,6 +1316,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "3/2026",
+        "nombre_torneo": "GOLFDEGOLFOS RELOADED - ARANJUEZ",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
+        "res_hcp": 27,
+        "dif_neto": -8,
+        "res_stb": 28,
+        "hcp_ini": 19.8,
+        "hcp_fin": 19.8
+      },
+      {
         "fecha": "2/2026",
         "nombre_torneo": "Torneo Roll & Golf",
         "club": "CLUB DE GOLF ARANJUEZ",
@@ -1413,17 +1424,6 @@
         "res_stb": 19,
         "hcp_ini": 18.8,
         "hcp_fin": 19.3
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "ANTEQUERA GOLF",
-        "club": "ANTEQUERA GOLF",
-        "form_calc": "ST",
-        "res_hcp": 27,
-        "dif_neto": -9,
-        "res_stb": 27,
-        "hcp_ini": 17.8,
-        "hcp_fin": 18.8
       }
     ]
   },
@@ -1434,6 +1434,17 @@
     "current_handicap": 10.9,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "Liga Clubes sin Campo Fin de Semana",
+        "club": "LOS ANGELES DE SAN RAFAEL GOLF",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -3,
+        "res_stb": 33,
+        "hcp_ini": 10.9,
+        "hcp_fin": 10.9
+      },
       {
         "fecha": "1/2026",
         "nombre_torneo": "TROFEO INAUGURAL CCCGOLF 8810",
@@ -1532,17 +1543,6 @@
         "res_stb": 36,
         "hcp_ini": 12.5,
         "hcp_fin": 12.3
-      },
-      {
-        "fecha": "4/2025",
-        "nombre_torneo": "LIGA SENIOR POR EQUIPOS 2025 TERCER",
-        "club": "CLUB DE GOLF EL BONILLO",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -11,
-        "res_stb": 25,
-        "hcp_ini": 11.9,
-        "hcp_fin": 12.5
       }
     ]
   },
@@ -1669,9 +1669,20 @@
     "id": 2,
     "license": "GC00433932",
     "nickname": "Maeslofer",
-    "current_handicap": 10.2,
+    "current_handicap": 9.3,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "MEMORIAL JOSE MANUEL PITA MACHIMBAR",
+        "club": "REAL CLUB DE GOLF DE LA CORUÑA",
+        "form_calc": "ST",
+        "res_hcp": 43,
+        "dif_neto": 7,
+        "res_stb": 43,
+        "hcp_ini": 10.2,
+        "hcp_fin": 9.3
+      },
       {
         "fecha": "12/2025",
         "nombre_torneo": "2ª PRUEBA LIGA DE PAREJAS SABADO",
@@ -1770,17 +1781,6 @@
         "res_stb": 35,
         "hcp_ini": 10.7,
         "hcp_fin": 10.5
-      },
-      {
-        "fecha": "6/2025",
-        "nombre_torneo": "MELIA REWARDS RACE TO RIVERA MAYA",
-        "club": "REAL CLUB DE GOLF DE LA CORUÑA",
-        "form_calc": "ST",
-        "res_hcp": 38,
-        "dif_neto": 3,
-        "res_stb": 39,
-        "hcp_ini": 11.2,
-        "hcp_fin": 10.7
       }
     ]
   },
@@ -2625,6 +2625,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "3/2026",
+        "nombre_torneo": "AESGOLF",
+        "club": "CLUB DE GOLF LA DEHESA",
+        "form_calc": "ST",
+        "res_hcp": 36,
+        "dif_neto": 1,
+        "res_stb": 37,
+        "hcp_ini": 12.6,
+        "hcp_fin": 12.6
+      },
+      {
         "fecha": "1/2026",
         "nombre_torneo": "TORNEO AMIGOS DEL NEGRALEJO",
         "club": "PALACIO DEL NEGRALEJO S.A.",
@@ -2721,17 +2732,6 @@
         "dif_neto": -5,
         "res_stb": 31,
         "hcp_ini": 12.9,
-        "hcp_fin": 12.9
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "AUPA",
-        "club": "PALACIO DEL NEGRALEJO S.A.",
-        "form_calc": "ST",
-        "res_hcp": 28,
-        "dif_neto": -9,
-        "res_stb": 27,
-        "hcp_ini": 12.0,
         "hcp_fin": 12.9
       }
     ]
