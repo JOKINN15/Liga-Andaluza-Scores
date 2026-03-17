@@ -100,29 +100,29 @@ def scrape_and_store_results():
         # Step 1: Log in and navigate to the main page
         login_url = 'https://rfegolf.es/PaginasServicios/areadeljugador.aspx'
         driver.get(login_url)
-        time.sleep(2)
+        time.sleep(5)
 
         # Perform login
         entrar_button = driver.find_element(By.ID, "ctl00_CabeceraGolf_imgAbrirLogin")
         driver.execute_script("arguments[0].click();", entrar_button)
-        time.sleep(2)
+        time.sleep(5)
 
         driver.find_element(By.ID, "ctl00_CabeceraGolf_login_UserName").send_keys(username)
         driver.find_element(By.ID, "ctl00_CabeceraGolf_login_password").send_keys(password)
         login_button = driver.find_element(By.ID, "ctl00_CabeceraGolf_login_login")
         driver.execute_script("arguments[0].click();", login_button)
 
-        time.sleep(3)  # Wait for login to complete
+        time.sleep(5)  # Wait for login to complete
 
         # Step 2: Navigate to "Área del Jugador"
         area_del_jugador_link = driver.find_element(By.ID, "ctl00_m_g_81dd4ba0_8871_48bd_83e5_76aca2e74970_ctl00_enlaceAJ")
         driver.execute_script("arguments[0].click();", area_del_jugador_link)
-        time.sleep(3)
+        time.sleep(5)
 
         # Step 3: Emulate click on "Ficha de actividad"
         ficha_actividad_link = driver.find_element(By.LINK_TEXT, "Ficha de actividad")
         driver.execute_script("arguments[0].click();", ficha_actividad_link)
-        time.sleep(3)
+        time.sleep(5)
 
         # Erase all records in the 'results' table
         golf_session.query(Result).delete()
