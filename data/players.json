@@ -8,6 +8,17 @@
     "results": [
       {
         "fecha": "3/2026",
+        "nombre_torneo": "VII Torneo de ranking 2025",
+        "club": "ESTEPONA GOLF",
+        "form_calc": "ST",
+        "res_hcp": 26,
+        "dif_neto": -6,
+        "res_stb": 30,
+        "hcp_ini": 20.6,
+        "hcp_fin": 20.6
+      },
+      {
+        "fecha": "3/2026",
         "nombre_torneo": "COMPETICION SEMANAL 07/03/26",
         "club": "LAURO GOLF",
         "form_calc": "ST",
@@ -104,17 +115,6 @@
         "res_stb": 34,
         "hcp_ini": 19.6,
         "hcp_fin": 19.4
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "XXVIII Torneo ranking 2025",
-        "club": "EL CHAPARRAL GOLF CLUB",
-        "form_calc": "MP",
-        "res_hcp": 93,
-        "dif_neto": 2,
-        "res_stb": 38,
-        "hcp_ini": 20.1,
-        "hcp_fin": 19.6
       }
     ]
   },
@@ -122,9 +122,20 @@
     "id": 7,
     "license": "AM00609439",
     "nickname": "Alfonso LL",
-    "current_handicap": 13.8,
+    "current_handicap": 13.9,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "VII Torneo de ranking 2025",
+        "club": "ESTEPONA GOLF",
+        "form_calc": "ST",
+        "res_hcp": 25,
+        "dif_neto": -7,
+        "res_stb": 29,
+        "hcp_ini": 13.8,
+        "hcp_fin": 13.9
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "VI torneo ranking 2026",
@@ -222,17 +233,6 @@
         "dif_neto": -5,
         "res_stb": 31,
         "hcp_ini": 14.4,
-        "hcp_fin": 14.4
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "ANTEQUERA GOLF",
-        "club": "ANTEQUERA GOLF",
-        "form_calc": "ST",
-        "res_hcp": 36,
-        "dif_neto": 0,
-        "res_stb": 36,
-        "hcp_ini": 14.5,
         "hcp_fin": 14.4
       }
     ]
@@ -364,6 +364,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "3/2026",
+        "nombre_torneo": "VII Torneo de ranking 2025",
+        "club": "ESTEPONA GOLF",
+        "form_calc": "ST",
+        "res_hcp": 22,
+        "dif_neto": -11,
+        "res_stb": 25,
+        "hcp_ini": 11.3,
+        "hcp_fin": 11.3
+      },
+      {
         "fecha": "2/2026",
         "nombre_torneo": "V Ranking 2026 Club d Golf Marbella",
         "club": "SANTA CLARA GOLF",
@@ -461,17 +472,6 @@
         "res_stb": 21,
         "hcp_ini": 11.1,
         "hcp_fin": 11.4
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "Ranking 2025 Club d Golf Marbella",
-        "club": "ALHAURÍN GOLF HOTEL & RESORT",
-        "form_calc": "MP",
-        "res_hcp": 90,
-        "dif_neto": -7,
-        "res_stb": 29,
-        "hcp_ini": 11.1,
-        "hcp_fin": 11.1
       }
     ]
   },
@@ -479,9 +479,20 @@
     "id": 21,
     "license": "AMB5602498",
     "nickname": "Carlos Pérez",
-    "current_handicap": 19.6,
+    "current_handicap": 19.5,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "VII Torneo de ranking 2025",
+        "club": "ESTEPONA GOLF",
+        "form_calc": "ST",
+        "res_hcp": 30,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 19.6,
+        "hcp_fin": 19.5
+      },
       {
         "fecha": "2/2026",
         "nombre_torneo": "IV Ranking 2026 Club d Golf Marbell",
@@ -579,17 +590,6 @@
         "dif_neto": -8,
         "res_stb": 28,
         "hcp_ini": 20.0,
-        "hcp_fin": 20.0
-      },
-      {
-        "fecha": "6/2025",
-        "nombre_torneo": "TORNEO ROMERAL 14-06-2025",
-        "club": "LAURO GOLF",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -3,
-        "res_stb": 33,
-        "hcp_ini": 19.8,
         "hcp_fin": 20.0
       }
     ]
@@ -1431,9 +1431,20 @@
     "id": 14,
     "license": "CM41794451",
     "nickname": "JOKKIN",
-    "current_handicap": 19.8,
+    "current_handicap": 20.5,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "TORNEO GROW GOLF",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
+        "res_hcp": 31,
+        "dif_neto": -4,
+        "res_stb": 32,
+        "hcp_ini": 19.8,
+        "hcp_fin": 20.5
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "GOLFDEGOLFOS RELOADED - ARANJUEZ",
@@ -1532,17 +1543,6 @@
         "res_stb": 28,
         "hcp_ini": 19.3,
         "hcp_fin": 19.6
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "TORNEO AIRBUS",
-        "club": "PALOMAREJOS GOLF",
-        "form_calc": "ST",
-        "res_hcp": 19,
-        "dif_neto": -17,
-        "res_stb": 19,
-        "hcp_ini": 18.8,
-        "hcp_fin": 19.3
       }
     ]
   },
@@ -1674,6 +1674,17 @@
     "results": [
       {
         "fecha": "3/2026",
+        "nombre_torneo": "TORNEO DE PRIMAVERA CADIZ GOLF 2026",
+        "club": "VILLA NUEVA GOLF RESORT",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -3,
+        "res_stb": 33,
+        "hcp_ini": 13.6,
+        "hcp_fin": 13.6
+      },
+      {
+        "fecha": "3/2026",
         "nombre_torneo": "GRUPO AMIGOS VILLANUEVA",
         "club": "VILLA NUEVA GOLF RESORT",
         "form_calc": "MP",
@@ -1770,17 +1781,6 @@
         "res_stb": 36,
         "hcp_ini": 12.3,
         "hcp_fin": 12.4
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "AMIGOS VILLANUEVA",
-        "club": "VILLA NUEVA GOLF RESORT",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -8,
-        "res_stb": 28,
-        "hcp_ini": 12.0,
-        "hcp_fin": 12.3
       }
     ]
   },
@@ -1911,6 +1911,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "3/2026",
+        "nombre_torneo": "VII Torneo de ranking 2025",
+        "club": "ESTEPONA GOLF",
+        "form_calc": "ST",
+        "res_hcp": 29,
+        "dif_neto": -4,
+        "res_stb": 32,
+        "hcp_ini": 15.3,
+        "hcp_fin": 15.3
+      },
+      {
         "fecha": "2/2026",
         "nombre_torneo": "V Ranking 2026 Club d Golf Marbella",
         "club": "SANTA CLARA GOLF",
@@ -2008,17 +2019,6 @@
         "res_stb": 42,
         "hcp_ini": 18.3,
         "hcp_fin": 17.3
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "XXVIII Torneo Feria de Istan",
-        "club": "GOLF RÍO REAL",
-        "form_calc": "ST",
-        "res_hcp": 32,
-        "dif_neto": -3,
-        "res_stb": 33,
-        "hcp_ini": 18.4,
-        "hcp_fin": 18.3
       }
     ]
   },
@@ -2150,6 +2150,17 @@
     "results": [
       {
         "fecha": "3/2026",
+        "nombre_torneo": "TORNEO GROW GOLF",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
+        "res_hcp": 30,
+        "dif_neto": -5,
+        "res_stb": 31,
+        "hcp_ini": 10.1,
+        "hcp_fin": 10.1
+      },
+      {
+        "fecha": "3/2026",
         "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
         "club": "CLUB DE GOLF ARANJUEZ",
         "form_calc": "ST",
@@ -2244,17 +2255,6 @@
         "res_hcp": 24,
         "dif_neto": -11,
         "res_stb": 25,
-        "hcp_ini": 12.7,
-        "hcp_fin": 12.7
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "COPA ARANJUEZ - Jornada 2",
-        "club": "CLUB DE GOLF ARANJUEZ",
-        "form_calc": "MP",
-        "res_hcp": 91,
-        "dif_neto": -10,
-        "res_stb": 26,
         "hcp_ini": 12.7,
         "hcp_fin": 12.7
       }
@@ -2621,9 +2621,20 @@
     "id": 22,
     "license": "CM66783350",
     "nickname": "Sute",
-    "current_handicap": 19.7,
+    "current_handicap": 19.2,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "TORNEO GROW GOLF",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
+        "res_hcp": 37,
+        "dif_neto": 2,
+        "res_stb": 38,
+        "hcp_ini": 19.7,
+        "hcp_fin": 19.2
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
@@ -2722,17 +2733,6 @@
         "res_stb": 29,
         "hcp_ini": 18.5,
         "hcp_fin": 19.1
-      },
-      {
-        "fecha": "6/2025",
-        "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
-        "club": "CLUB DE GOLF ARANJUEZ",
-        "form_calc": "ST",
-        "res_hcp": 34,
-        "dif_neto": -1,
-        "res_stb": 35,
-        "hcp_ini": 18.3,
-        "hcp_fin": 18.5
       }
     ]
   },
@@ -2859,9 +2859,20 @@
     "id": 20,
     "license": "7773790872",
     "nickname": "jmrojano",
-    "current_handicap": 9.3,
+    "current_handicap": 9.4,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "1ª JORNADA LIGA EQUIPOS",
+        "club": "ESCUELA DE GOLF DE CASTILLA Y LEON",
+        "form_calc": "ST",
+        "res_hcp": 35,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 9.3,
+        "hcp_fin": 9.4
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "PEÑA GARBANZO 19",
@@ -2960,17 +2971,6 @@
         "res_stb": 35,
         "hcp_ini": 9.0,
         "hcp_fin": 8.8
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "11 prb liga el Maderal",
-        "club": "GOLF EL MADERAL",
-        "form_calc": "SP",
-        "res_hcp": 55,
-        "dif_neto": -2,
-        "res_stb": 34,
-        "hcp_ini": 8.5,
-        "hcp_fin": 9.0
       }
     ]
   },
@@ -2978,9 +2978,20 @@
     "id": 12,
     "license": "CM11211950",
     "nickname": "m_eagleito",
-    "current_handicap": 12.9,
+    "current_handicap": 13.2,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "YAYOS & CHUPETES",
+        "club": "LAYOS CASA CAMPO S.A.",
+        "form_calc": "ST",
+        "res_hcp": 33,
+        "dif_neto": -3,
+        "res_stb": 33,
+        "hcp_ini": 12.9,
+        "hcp_fin": 13.2
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "Liga Clubes sin Campo Entre Semana",
@@ -3078,17 +3089,6 @@
         "dif_neto": -13,
         "res_stb": 23,
         "hcp_ini": 13.0,
-        "hcp_fin": 13.0
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "LANZAROTE AESGOLF",
-        "club": "CLUB DE GOLF LA DEHESA",
-        "form_calc": "ST",
-        "res_hcp": 27,
-        "dif_neto": -7,
-        "res_stb": 29,
-        "hcp_ini": 12.9,
         "hcp_fin": 13.0
       }
     ]
