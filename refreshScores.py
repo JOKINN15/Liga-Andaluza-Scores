@@ -103,6 +103,11 @@ def scrape_and_store_results():
         time.sleep(5)
 
         # Perform login
+        entrar_button = driver.find_element(By.ID, "ctl00_MensajeEmergente1_entrar")
+        driver.execute_script("arguments[0].click();", entrar_button)
+        time.sleep(5)
+
+        # Perform login
         entrar_button = driver.find_element(By.ID, "ctl00_CabeceraGolf_imgAbrirLogin")
         driver.execute_script("arguments[0].click();", entrar_button)
         time.sleep(5)
