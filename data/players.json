@@ -3,9 +3,20 @@
     "id": 1,
     "license": "AM93440721",
     "nickname": "ADLO",
-    "current_handicap": 20.6,
+    "current_handicap": 20.2,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "COMPETICIÓN SEMANAL 28/03",
+        "club": "LAURO GOLF",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": 0,
+        "res_stb": 36,
+        "hcp_ini": 20.6,
+        "hcp_fin": 20.2
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "VII Torneo de ranking 2025",
@@ -104,17 +115,6 @@
         "res_stb": 30,
         "hcp_ini": 19.4,
         "hcp_fin": 19.4
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "ANTEQUERA GOLF",
-        "club": "ANTEQUERA GOLF",
-        "form_calc": "ST",
-        "res_hcp": 34,
-        "dif_neto": -2,
-        "res_stb": 34,
-        "hcp_ini": 19.6,
-        "hcp_fin": 19.4
       }
     ]
   },
@@ -125,6 +125,17 @@
     "current_handicap": 13.9,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "IX Ranking 2026 Club d Golf Marbell",
+        "club": "LA DUQUESA GOLF & COUNTRY CLUB",
+        "form_calc": "MP",
+        "res_hcp": 98,
+        "dif_neto": -11,
+        "res_stb": 25,
+        "hcp_ini": 13.9,
+        "hcp_fin": 13.9
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "VII Torneo de ranking 2025",
@@ -221,17 +232,6 @@
         "res_hcp": 28,
         "dif_neto": -7,
         "res_stb": 29,
-        "hcp_ini": 14.4,
-        "hcp_fin": 14.4
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "Ranking Club d Golf Marbella",
-        "club": "GOLF MARBELLA & COUNTRY CLUB",
-        "form_calc": "ST",
-        "res_hcp": 29,
-        "dif_neto": -5,
-        "res_stb": 31,
         "hcp_ini": 14.4,
         "hcp_fin": 14.4
       }
@@ -360,9 +360,20 @@
     "id": 15,
     "license": "AM93802309",
     "nickname": "BRUGA RK",
-    "current_handicap": 11.3,
+    "current_handicap": 12.0,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "IX Ranking 2026 Club d Golf Marbell",
+        "club": "LA DUQUESA GOLF & COUNTRY CLUB",
+        "form_calc": "MP",
+        "res_hcp": 94,
+        "dif_neto": -10,
+        "res_stb": 26,
+        "hcp_ini": 11.3,
+        "hcp_fin": 12.0
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "VII Torneo de ranking 2025",
@@ -461,17 +472,6 @@
         "res_stb": 23,
         "hcp_ini": 11.4,
         "hcp_fin": 11.4
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "Ranking Club de golf Marbella",
-        "club": "MIRAFLORES GOLF",
-        "form_calc": "ST",
-        "res_hcp": 21,
-        "dif_neto": -15,
-        "res_stb": 21,
-        "hcp_ini": 11.1,
-        "hcp_fin": 11.4
       }
     ]
   },
@@ -482,6 +482,17 @@
     "current_handicap": 19.5,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "IX Ranking 2026 Club d Golf Marbell",
+        "club": "LA DUQUESA GOLF & COUNTRY CLUB",
+        "form_calc": "MP",
+        "res_hcp": 96,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 19.5,
+        "hcp_fin": 19.5
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "VII Torneo de ranking 2025",
@@ -580,17 +591,6 @@
         "res_stb": 42,
         "hcp_ini": 20.0,
         "hcp_fin": 19.2
-      },
-      {
-        "fecha": "7/2025",
-        "nombre_torneo": "XXI Torneo Ranking Clu d Golf Marbe",
-        "club": "MIJAS GOLF INTERNACIONAL",
-        "form_calc": "MP",
-        "res_hcp": 104,
-        "dif_neto": -8,
-        "res_stb": 28,
-        "hcp_ini": 20.0,
-        "hcp_fin": 20.0
       }
     ]
   },
@@ -1912,6 +1912,17 @@
     "results": [
       {
         "fecha": "3/2026",
+        "nombre_torneo": "IX Ranking 2026 Club d Golf Marbell",
+        "club": "LA DUQUESA GOLF & COUNTRY CLUB",
+        "form_calc": "MP",
+        "res_hcp": 97,
+        "dif_neto": -9,
+        "res_stb": 27,
+        "hcp_ini": 15.3,
+        "hcp_fin": 15.3
+      },
+      {
+        "fecha": "3/2026",
         "nombre_torneo": "VII Torneo de ranking 2025",
         "club": "ESTEPONA GOLF",
         "form_calc": "ST",
@@ -2008,17 +2019,6 @@
         "res_stb": 41,
         "hcp_ini": 17.3,
         "hcp_fin": 16.3
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "Ranking 2025 Club d Golf Marbella",
-        "club": "ALHAURÍN GOLF HOTEL & RESORT",
-        "form_calc": "MP",
-        "res_hcp": 85,
-        "dif_neto": 6,
-        "res_stb": 42,
-        "hcp_ini": 18.3,
-        "hcp_fin": 17.3
       }
     ]
   },
@@ -2269,6 +2269,17 @@
     "results": [
       {
         "fecha": "3/2026",
+        "nombre_torneo": "COMPETICIÓN SEMANAL 28/03",
+        "club": "LAURO GOLF",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -10,
+        "res_stb": 26,
+        "hcp_ini": 6.4,
+        "hcp_fin": 6.4
+      },
+      {
+        "fecha": "3/2026",
         "nombre_torneo": "COMPETICION SEMANAL 14/03",
         "club": "LAURO GOLF",
         "form_calc": "ST",
@@ -2365,17 +2376,6 @@
         "res_stb": 35,
         "hcp_ini": 7.0,
         "hcp_fin": 6.9
-      },
-      {
-        "fecha": "6/2024",
-        "nombre_torneo": "COMPETICION SEMANAL 15/06/24",
-        "club": "LAURO GOLF",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": 1,
-        "res_stb": 37,
-        "hcp_ini": 7.1,
-        "hcp_fin": 7.0
       }
     ]
   },
@@ -2383,9 +2383,20 @@
     "id": 16,
     "license": "AM96627451",
     "nickname": "Pierre",
-    "current_handicap": 17.9,
+    "current_handicap": 18.3,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "27ª Jornada Camaleón Golf 25/26",
+        "club": "ISLA CANELA OLD COURSE",
+        "form_calc": "ST",
+        "res_hcp": 32,
+        "dif_neto": -4,
+        "res_stb": 32,
+        "hcp_ini": 17.9,
+        "hcp_fin": 18.3
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "25ª Jornada Camaleón Golf 25/26",
@@ -2484,17 +2495,6 @@
         "res_stb": 31,
         "hcp_ini": 16.5,
         "hcp_fin": 16.6
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "Torneo Apertura Camaleón Golf 25/26",
-        "club": "ISLA CANELA LINKS",
-        "form_calc": "ST",
-        "res_hcp": 35,
-        "dif_neto": -1,
-        "res_stb": 35,
-        "hcp_ini": 16.6,
-        "hcp_fin": 16.5
       }
     ]
   },
@@ -2864,6 +2864,28 @@
     "results": [
       {
         "fecha": "3/2026",
+        "nombre_torneo": "II Prueba del Circuito de P P de Cy",
+        "club": "C. MUNICIPAL DE GOLF ISLA DOS AGUAS",
+        "form_calc": "SP",
+        "res_hcp": 0,
+        "dif_neto": -8,
+        "res_stb": 28,
+        "hcp_ini": 9.4,
+        "hcp_fin": 9.4
+      },
+      {
+        "fecha": "3/2026",
+        "nombre_torneo": "II Prueba del Circuito de P P de Cy",
+        "club": "C. MUNICIPAL DE GOLF ISLA DOS AGUAS",
+        "form_calc": "SP",
+        "res_hcp": 0,
+        "dif_neto": -7,
+        "res_stb": 29,
+        "hcp_ini": 9.4,
+        "hcp_fin": 9.9
+      },
+      {
+        "fecha": "3/2026",
         "nombre_torneo": "1ª JORNADA LIGA EQUIPOS",
         "club": "ESCUELA DE GOLF DE CASTILLA Y LEON",
         "form_calc": "ST",
@@ -2949,28 +2971,6 @@
         "res_stb": 36,
         "hcp_ini": 9.4,
         "hcp_fin": 9.0
-      },
-      {
-        "fecha": "12/2025",
-        "nombre_torneo": "TORNEO NAVIDAD 2025",
-        "club": "ESCUELA DE GOLF DE CASTILLA Y LEON",
-        "form_calc": "ST",
-        "res_hcp": 33,
-        "dif_neto": -4,
-        "res_stb": 32,
-        "hcp_ini": 8.8,
-        "hcp_fin": 9.4
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "Torneo Fin de Temporada",
-        "club": "GOLF EL MADERAL",
-        "form_calc": "SP",
-        "res_hcp": 54,
-        "dif_neto": -1,
-        "res_stb": 35,
-        "hcp_ini": 9.0,
-        "hcp_fin": 8.8
       }
     ]
   },
