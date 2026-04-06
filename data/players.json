@@ -1435,6 +1435,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "4/2026",
+        "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL SEMANA SAN",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
+        "res_hcp": 28,
+        "dif_neto": -7,
+        "res_stb": 29,
+        "hcp_ini": 20.5,
+        "hcp_fin": 20.5
+      },
+      {
         "fecha": "3/2026",
         "nombre_torneo": "TORNEO GROW GOLF",
         "club": "CLUB DE GOLF ARANJUEZ",
@@ -1532,17 +1543,6 @@
         "res_stb": 21,
         "hcp_ini": 19.6,
         "hcp_fin": 20.6
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "TORNEO GREATER GOLF MADRID",
-        "club": "CLUB DE GOLF ARANJUEZ",
-        "form_calc": "ST",
-        "res_hcp": 28,
-        "dif_neto": -8,
-        "res_stb": 28,
-        "hcp_ini": 19.3,
-        "hcp_fin": 19.6
       }
     ]
   },
@@ -1669,9 +1669,20 @@
     "id": 13,
     "license": "AMC9819581",
     "nickname": "Lolo_Zulueta",
-    "current_handicap": 13.6,
+    "current_handicap": 14.0,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "4/2026",
+        "nombre_torneo": "BOLITAS ABRIL",
+        "club": "VILLA NUEVA GOLF RESORT",
+        "form_calc": "MP",
+        "res_hcp": 0,
+        "dif_neto": -7,
+        "res_stb": 29,
+        "hcp_ini": 13.6,
+        "hcp_fin": 14.0
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "TORNEO DE PRIMAVERA CADIZ GOLF 2026",
@@ -1769,17 +1780,6 @@
         "dif_neto": -10,
         "res_stb": 26,
         "hcp_ini": 12.4,
-        "hcp_fin": 12.4
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "4 J. CIRCUITO VNG 2025. CATEGORIA O",
-        "club": "VILLA NUEVA GOLF RESORT",
-        "form_calc": "MP",
-        "res_hcp": 0,
-        "dif_neto": 0,
-        "res_stb": 36,
-        "hcp_ini": 12.3,
         "hcp_fin": 12.4
       }
     ]
