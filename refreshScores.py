@@ -122,7 +122,7 @@ def scrape_and_store_results():
         # Step 2: Navigate to "Área del Jugador"
         area_del_jugador_link = driver.find_element(By.ID, "ctl00_m_g_81dd4ba0_8871_48bd_83e5_76aca2e74970_ctl00_enlaceAJ")
         driver.execute_script("arguments[0].click();", area_del_jugador_link)
-        time.sleep(5)
+        time.sleep(10)
 
         # Step 3: Emulate click on "Ficha de actividad"
         ficha_actividad_link = driver.find_element(By.LINK_TEXT, "Ficha de actividad")
