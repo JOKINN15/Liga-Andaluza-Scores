@@ -1312,9 +1312,20 @@
     "id": 3,
     "license": "AM85970337",
     "nickname": "Gabri",
-    "current_handicap": 19.8,
+    "current_handicap": 19.6,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "4/2026",
+        "nombre_torneo": "TORNEO PIES BLANCOS ( SABADO 11 ABR",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": 1,
+        "res_stb": 37,
+        "hcp_ini": 19.8,
+        "hcp_fin": 19.6
+      },
       {
         "fecha": "1/2026",
         "nombre_torneo": "MY GOLF",
@@ -1412,17 +1423,6 @@
         "dif_neto": -13,
         "res_stb": 23,
         "hcp_ini": 20.0,
-        "hcp_fin": 20.0
-      },
-      {
-        "fecha": "8/2024",
-        "nombre_torneo": "X TORNEO MERKAJAMON. Domingo",
-        "club": "ISLA CANELA OLD COURSE",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -8,
-        "res_stb": 28,
-        "hcp_ini": 19.5,
         "hcp_fin": 20.0
       }
     ]
@@ -1792,6 +1792,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "4/2026",
+        "nombre_torneo": "NAMBUMA MALAWI",
+        "club": "REAL CLUB DE GOLF DE LA CORUÑA",
+        "form_calc": "ST",
+        "res_hcp": 29,
+        "dif_neto": -7,
+        "res_stb": 29,
+        "hcp_ini": 9.3,
+        "hcp_fin": 9.3
+      },
+      {
         "fecha": "3/2026",
         "nombre_torneo": "MEMORIAL JOSE MANUEL PITA MACHIMBAR",
         "club": "REAL CLUB DE GOLF DE LA CORUÑA",
@@ -1889,17 +1900,6 @@
         "res_stb": 35,
         "hcp_ini": 10.5,
         "hcp_fin": 10.6
-      },
-      {
-        "fecha": "7/2025",
-        "nombre_torneo": "XV TORRE DE HERCULES DE ORO",
-        "club": "REAL CLUB DE GOLF DE LA CORUÑA",
-        "form_calc": "MP",
-        "res_hcp": 0,
-        "dif_neto": -1,
-        "res_stb": 35,
-        "hcp_ini": 10.7,
-        "hcp_fin": 10.5
       }
     ]
   },
@@ -2621,9 +2621,20 @@
     "id": 27,
     "license": "LV81220881",
     "nickname": "Roquet",
-    "current_handicap": 17.3,
+    "current_handicap": 18.1,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "4/2026",
+        "nombre_torneo": "XIII Orden de Mérito Aesgolf C.V. I",
+        "club": "CLUB DE GOLF EL BOSQUE",
+        "form_calc": "ST",
+        "res_hcp": 19,
+        "dif_neto": -16,
+        "res_stb": 20,
+        "hcp_ini": 17.3,
+        "hcp_fin": 18.1
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "CIRCUITO MASCULINO Y FEMENINO CV 1-",
@@ -2722,17 +2733,6 @@
         "res_stb": 39,
         "hcp_ini": 17.7,
         "hcp_fin": 17.1
-      },
-      {
-        "fecha": "3/2023",
-        "nombre_torneo": "Torneo Amigos La Sella Golf 2023",
-        "club": "LA SELLA GOLF (CAMPO)",
-        "form_calc": "ST",
-        "res_hcp": 27,
-        "dif_neto": -5,
-        "res_stb": 31,
-        "hcp_ini": 17.7,
-        "hcp_fin": 17.7
       }
     ]
   },
@@ -2978,9 +2978,20 @@
     "id": 20,
     "license": "7773790872",
     "nickname": "jmrojano",
-    "current_handicap": 9.4,
+    "current_handicap": 11.0,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "4/2026",
+        "nombre_torneo": "LXE 2ª PRUEBA",
+        "club": "CLUB DEPORTIVO GOLF SOTOVERDE",
+        "form_calc": "ST",
+        "res_hcp": 71,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 9.9,
+        "hcp_fin": 11.0
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "II Prueba del Circuito de P P de Cy",
@@ -3079,17 +3090,6 @@
         "res_stb": 38,
         "hcp_ini": 9.0,
         "hcp_fin": 8.8
-      },
-      {
-        "fecha": "12/2025",
-        "nombre_torneo": "XI torneo de navidad Mapfre",
-        "club": "GOLF EL MADERAL",
-        "form_calc": "SP",
-        "res_hcp": 53,
-        "dif_neto": 0,
-        "res_stb": 36,
-        "hcp_ini": 9.4,
-        "hcp_fin": 9.0
       }
     ]
   },
