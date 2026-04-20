@@ -602,6 +602,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "4/2026",
+        "nombre_torneo": "V TORNEO INTERCOLEGIOS - VIERNES",
+        "club": "EL VALLE GOLF",
+        "form_calc": "ST",
+        "res_hcp": 30,
+        "dif_neto": -4,
+        "res_stb": 32,
+        "hcp_ini": 19.2,
+        "hcp_fin": 19.2
+      },
+      {
         "fecha": "11/2025",
         "nombre_torneo": "T. DE GOLF ESTRELLA DE LEVANTE SÁB.",
         "club": "CLUB DE GOLF ALTORREAL",
@@ -699,17 +710,6 @@
         "res_stb": 29,
         "hcp_ini": 17.7,
         "hcp_fin": 18.2
-      },
-      {
-        "fecha": "2/2025",
-        "nombre_torneo": "TORNEO MENSUAL AGUILON PRIMER TORNE",
-        "club": "AGUILON GOLF",
-        "form_calc": "ST",
-        "res_hcp": 24,
-        "dif_neto": -9,
-        "res_stb": 27,
-        "hcp_ini": 17.7,
-        "hcp_fin": 17.7
       }
     ]
   },
@@ -717,9 +717,20 @@
     "id": 10,
     "license": "MM06165775",
     "nickname": "Doznerol",
-    "current_handicap": 20.3,
+    "current_handicap": 20.7,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "4/2026",
+        "nombre_torneo": "V TORNEO INTERCOLEGIOS - SÁBADO",
+        "club": "EL VALLE GOLF",
+        "form_calc": "ST",
+        "res_hcp": 37,
+        "dif_neto": 2,
+        "res_stb": 38,
+        "hcp_ini": 20.3,
+        "hcp_fin": 20.7
+      },
       {
         "fecha": "2/2026",
         "nombre_torneo": "TORNEO SANTA APOLONIA 2026",
@@ -816,17 +827,6 @@
         "res_hcp": 27,
         "dif_neto": -8,
         "res_stb": 28,
-        "hcp_ini": 21.4,
-        "hcp_fin": 21.4
-      },
-      {
-        "fecha": "9/2024",
-        "nombre_torneo": "TORNEO CIUDAD DE MULA 2024",
-        "club": "CLUB DE GOLF ALTORREAL",
-        "form_calc": "ST",
-        "res_hcp": 24,
-        "dif_neto": -11,
-        "res_stb": 25,
         "hcp_ini": 21.4,
         "hcp_fin": 21.4
       }
@@ -2264,9 +2264,20 @@
     "id": 25,
     "license": "AM83058773",
     "nickname": "Pepe Sandino",
-    "current_handicap": 6.4,
+    "current_handicap": 6.7,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "4/2026",
+        "nombre_torneo": "COMPETICION SEMANAL 18/04/26",
+        "club": "LAURO GOLF",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 6.4,
+        "hcp_fin": 6.7
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "COMPETICIÓN SEMANAL 28/03",
@@ -2365,17 +2376,6 @@
         "res_stb": 38,
         "hcp_ini": 6.9,
         "hcp_fin": 6.4
-      },
-      {
-        "fecha": "6/2024",
-        "nombre_torneo": "COMPETICIÓN SEMANAL",
-        "club": "LAURO GOLF",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -1,
-        "res_stb": 35,
-        "hcp_ini": 7.0,
-        "hcp_fin": 6.9
       }
     ]
   },
@@ -2386,6 +2386,17 @@
     "current_handicap": 18.3,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "4/2026",
+        "nombre_torneo": "30ª Jornada Camaleón Golf 25/26",
+        "club": "ISLA CANELA OLD COURSE",
+        "form_calc": "ST",
+        "res_hcp": 34,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 18.3,
+        "hcp_fin": 18.3
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "27ª Jornada Camaleón Golf 25/26",
@@ -2483,17 +2494,6 @@
         "dif_neto": -7,
         "res_stb": 29,
         "hcp_ini": 16.6,
-        "hcp_fin": 16.6
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "2ª JORNADA CAMALEÓN GOLF 25/26",
-        "club": "ISLA CANELA OLD COURSE",
-        "form_calc": "ST",
-        "res_hcp": 31,
-        "dif_neto": -5,
-        "res_stb": 31,
-        "hcp_ini": 16.5,
         "hcp_fin": 16.6
       }
     ]
@@ -2978,9 +2978,31 @@
     "id": 20,
     "license": "7773790872",
     "nickname": "jmrojano",
-    "current_handicap": 11.0,
+    "current_handicap": 10.5,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "4/2026",
+        "nombre_torneo": "IV Prueba liga el Maderal abril",
+        "club": "GOLF EL MADERAL",
+        "form_calc": "SP",
+        "res_hcp": 54,
+        "dif_neto": -1,
+        "res_stb": 35,
+        "hcp_ini": 10.6,
+        "hcp_fin": 10.5
+      },
+      {
+        "fecha": "4/2026",
+        "nombre_torneo": "VIERNES VILLA DE ARROYO - ONDA CERO",
+        "club": "CLUB DEPORTIVO GOLF SOTOVERDE",
+        "form_calc": "ST",
+        "res_hcp": 39,
+        "dif_neto": 3,
+        "res_stb": 39,
+        "hcp_ini": 11.0,
+        "hcp_fin": 10.6
+      },
       {
         "fecha": "4/2026",
         "nombre_torneo": "LXE 2ª PRUEBA",
@@ -3067,28 +3089,6 @@
         "dif_neto": -5,
         "res_stb": 31,
         "hcp_ini": 8.8,
-        "hcp_fin": 8.8
-      },
-      {
-        "fecha": "2/2026",
-        "nombre_torneo": "I Prueba del Circuito de P P de CyL",
-        "club": "ESCUELA DE GOLF DE CASTILLA Y LEON",
-        "form_calc": "SP",
-        "res_hcp": 0,
-        "dif_neto": -3,
-        "res_stb": 33,
-        "hcp_ini": 8.8,
-        "hcp_fin": 9.2
-      },
-      {
-        "fecha": "1/2026",
-        "nombre_torneo": "I Prueba liga 2026 el Maderal",
-        "club": "GOLF EL MADERAL",
-        "form_calc": "SP",
-        "res_hcp": 51,
-        "dif_neto": 2,
-        "res_stb": 38,
-        "hcp_ini": 9.0,
         "hcp_fin": 8.8
       }
     ]
