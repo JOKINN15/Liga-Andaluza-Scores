@@ -1793,6 +1793,17 @@
     "results": [
       {
         "fecha": "5/2026",
+        "nombre_torneo": "HARAMBEE",
+        "club": "REAL CLUB DE GOLF DE LA CORUÑA",
+        "form_calc": "ST",
+        "res_hcp": 29,
+        "dif_neto": -6,
+        "res_stb": 30,
+        "hcp_ini": 9.6,
+        "hcp_fin": 9.6
+      },
+      {
+        "fecha": "5/2026",
         "nombre_torneo": "VIÑA REAL",
         "club": "REAL CLUB DE GOLF DE LA CORUÑA",
         "form_calc": "ST",
@@ -1889,17 +1900,6 @@
         "res_stb": 39,
         "hcp_ini": 10.6,
         "hcp_fin": 10.0
-      },
-      {
-        "fecha": "8/2025",
-        "nombre_torneo": "ESTRELLA GALICIA MARTES",
-        "club": "REAL CLUB DE GOLF DE LA CORUÑA",
-        "form_calc": "ST",
-        "res_hcp": 25,
-        "dif_neto": -10,
-        "res_stb": 26,
-        "hcp_ini": 10.6,
-        "hcp_fin": 10.6
       }
     ]
   },
