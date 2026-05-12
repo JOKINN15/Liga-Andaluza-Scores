@@ -955,9 +955,20 @@
     "id": 8,
     "license": "MM06954999",
     "nickname": "Fernando Cano",
-    "current_handicap": 21.7,
+    "current_handicap": 22.1,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "TORNEO GOLF MERCEDESTROPY 2026 VIER",
+        "club": "CLUB DE GOLF ALTORREAL",
+        "form_calc": "ST",
+        "res_hcp": 30,
+        "dif_neto": -6,
+        "res_stb": 30,
+        "hcp_ini": 21.7,
+        "hcp_fin": 22.1
+      },
       {
         "fecha": "5/2026",
         "nombre_torneo": "CIRCUITO CORPORATE 2026 - SÁBADO",
@@ -1055,17 +1066,6 @@
         "dif_neto": -6,
         "res_stb": 30,
         "hcp_ini": 25.0,
-        "hcp_fin": 25.0
-      },
-      {
-        "fecha": "5/2025",
-        "nombre_torneo": "III SUPERLIGA REGIÓN DE MURCIA - EL",
-        "club": "EL VALLE GOLF",
-        "form_calc": "ST",
-        "res_hcp": 35,
-        "dif_neto": 1,
-        "res_stb": 37,
-        "hcp_ini": 25.5,
         "hcp_fin": 25.0
       }
     ]
@@ -1436,6 +1436,17 @@
     "results": [
       {
         "fecha": "5/2026",
+        "nombre_torneo": "YAYOS Y CHUPETES",
+        "club": "C.D. LA FAISANERA GOLF SEGOVIA",
+        "form_calc": "ST",
+        "res_hcp": 24,
+        "dif_neto": -12,
+        "res_stb": 24,
+        "hcp_ini": 20.5,
+        "hcp_fin": 20.5
+      },
+      {
+        "fecha": "5/2026",
         "nombre_torneo": "TORNEO INDIV CRUZ ROJA",
         "club": "CLUB DE GOLF ARANJUEZ",
         "form_calc": "ST",
@@ -1532,17 +1543,6 @@
         "res_stb": 26,
         "hcp_ini": 20.5,
         "hcp_fin": 20.8
-      },
-      {
-        "fecha": "12/2025",
-        "nombre_torneo": "Torneo Roll & Golf",
-        "club": "CLUB DE GOLF ARANJUEZ",
-        "form_calc": "ST",
-        "res_hcp": 31,
-        "dif_neto": -4,
-        "res_stb": 32,
-        "hcp_ini": 20.6,
-        "hcp_fin": 20.5
       }
     ]
   },
@@ -2383,9 +2383,20 @@
     "id": 16,
     "license": "AM96627451",
     "nickname": "Pierre",
-    "current_handicap": 18.3,
+    "current_handicap": 18.5,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "33ª Jornada Camaleón Golf 25/26",
+        "club": "ISLA CANELA OLD COURSE",
+        "form_calc": "ST",
+        "res_hcp": 36,
+        "dif_neto": -1,
+        "res_stb": 35,
+        "hcp_ini": 18.3,
+        "hcp_fin": 18.5
+      },
       {
         "fecha": "4/2026",
         "nombre_torneo": "30ª Jornada Camaleón Golf 25/26",
@@ -2482,17 +2493,6 @@
         "res_hcp": 27,
         "dif_neto": -9,
         "res_stb": 27,
-        "hcp_ini": 16.6,
-        "hcp_fin": 16.6
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "ANTEQUERA GOLF",
-        "club": "ANTEQUERA GOLF",
-        "form_calc": "ST",
-        "res_hcp": 29,
-        "dif_neto": -7,
-        "res_stb": 29,
         "hcp_ini": 16.6,
         "hcp_fin": 16.6
       }
@@ -2859,9 +2859,20 @@
     "id": 26,
     "license": "CM56691067",
     "nickname": "Yelito",
-    "current_handicap": 17.9,
+    "current_handicap": 18.3,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "YAYOS Y CHUPETES",
+        "club": "C.D. LA FAISANERA GOLF SEGOVIA",
+        "form_calc": "ST",
+        "res_hcp": 23,
+        "dif_neto": -13,
+        "res_stb": 23,
+        "hcp_ini": 17.9,
+        "hcp_fin": 18.3
+      },
       {
         "fecha": "12/2025",
         "nombre_torneo": "TORNEO COCIDO 18 DE DICIEMBRE",
@@ -2958,17 +2969,6 @@
         "res_hcp": 20,
         "dif_neto": -13,
         "res_stb": 23,
-        "hcp_ini": 16.3,
-        "hcp_fin": 16.3
-      },
-      {
-        "fecha": "4/2024",
-        "nombre_torneo": "RANKING AEJG",
-        "club": "LOS ANGELES DE SAN RAFAEL GOLF",
-        "form_calc": "ST",
-        "res_hcp": 29,
-        "dif_neto": -6,
-        "res_stb": 30,
         "hcp_ini": 16.3,
         "hcp_fin": 16.3
       }
