@@ -360,9 +360,20 @@
     "id": 15,
     "license": "AM93802309",
     "nickname": "BRUGA RK",
-    "current_handicap": 12.8,
+    "current_handicap": 13.3,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "III TORNEO UPPERY CLUB",
+        "club": "REAL CLUB DE CAMPO DE MALAGA",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -5,
+        "res_stb": 31,
+        "hcp_ini": 12.8,
+        "hcp_fin": 13.3
+      },
       {
         "fecha": "4/2026",
         "nombre_torneo": "X torneo ranking 2026",
@@ -460,17 +471,6 @@
         "dif_neto": -21,
         "res_stb": 15,
         "hcp_ini": 10.7,
-        "hcp_fin": 10.7
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "Ranking Club de Golf Marbella",
-        "club": "LA DUQUESA GOLF & COUNTRY CLUB",
-        "form_calc": "ST",
-        "res_hcp": 35,
-        "dif_neto": 0,
-        "res_stb": 36,
-        "hcp_ini": 11.2,
         "hcp_fin": 10.7
       }
     ]
@@ -1431,9 +1431,20 @@
     "id": 14,
     "license": "CM41794451",
     "nickname": "JOKKIN",
-    "current_handicap": 20.5,
+    "current_handicap": 20.9,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "Torneo Roll & Golf",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
+        "res_hcp": 27,
+        "dif_neto": -8,
+        "res_stb": 28,
+        "hcp_ini": 20.5,
+        "hcp_fin": 20.9
+      },
       {
         "fecha": "5/2026",
         "nombre_torneo": "YAYOS Y CHUPETES",
@@ -1531,17 +1542,6 @@
         "dif_neto": -14,
         "res_stb": 22,
         "hcp_ini": 20.8,
-        "hcp_fin": 20.8
-      },
-      {
-        "fecha": "1/2026",
-        "nombre_torneo": "I CIRCUITO GT TOUR_6ª PRUEBA",
-        "club": "CLUB DE GOLF ARANJUEZ",
-        "form_calc": "MP",
-        "res_hcp": 103,
-        "dif_neto": -10,
-        "res_stb": 26,
-        "hcp_ini": 20.5,
         "hcp_fin": 20.8
       }
     ]
@@ -1669,9 +1669,20 @@
     "id": 13,
     "license": "AMC9819581",
     "nickname": "Lolo_Zulueta",
-    "current_handicap": 14.0,
+    "current_handicap": 14.4,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "CADIZ CLUB DE GOLF",
+        "club": "CAMPO DE GOLF DEHESA MONTENMEDIO",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -1,
+        "res_stb": 35,
+        "hcp_ini": 14.0,
+        "hcp_fin": 14.4
+      },
       {
         "fecha": "4/2026",
         "nombre_torneo": "Torneo Cadiz Club de Golf - 25 de A",
@@ -1770,17 +1781,6 @@
         "res_stb": 33,
         "hcp_ini": 13.2,
         "hcp_fin": 13.0
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "6 J. CIRCUITO VNG 2025. CATEGORIA O",
-        "club": "VILLA NUEVA GOLF RESORT",
-        "form_calc": "MP",
-        "res_hcp": 0,
-        "dif_neto": -11,
-        "res_stb": 25,
-        "hcp_ini": 12.4,
-        "hcp_fin": 13.2
       }
     ]
   },
@@ -1788,9 +1788,20 @@
     "id": 2,
     "license": "GC00433932",
     "nickname": "Maeslofer",
-    "current_handicap": 9.6,
+    "current_handicap": 9.8,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "COPE",
+        "club": "REAL CLUB DE GOLF DE LA CORUÑA",
+        "form_calc": "ST",
+        "res_hcp": 29,
+        "dif_neto": -6,
+        "res_stb": 30,
+        "hcp_ini": 9.6,
+        "hcp_fin": 9.8
+      },
       {
         "fecha": "5/2026",
         "nombre_torneo": "HARAMBEE",
@@ -1889,17 +1900,6 @@
         "res_stb": 36,
         "hcp_ini": 10.0,
         "hcp_fin": 9.7
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "CIRCUITO DETRADI GALICIA - SABADO",
-        "club": "HERCULES CLUB DE GOLF",
-        "form_calc": "ST",
-        "res_hcp": 39,
-        "dif_neto": 3,
-        "res_stb": 39,
-        "hcp_ini": 10.6,
-        "hcp_fin": 10.0
       }
     ]
   },
@@ -2145,9 +2145,20 @@
     "id": 4,
     "license": "CM66249093",
     "nickname": "Nando",
-    "current_handicap": 10.1,
+    "current_handicap": 9.4,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "Torneo Roll & Golf",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
+        "res_hcp": 39,
+        "dif_neto": 4,
+        "res_stb": 40,
+        "hcp_ini": 10.1,
+        "hcp_fin": 9.4
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "TORNEO GROW GOLF",
@@ -2246,17 +2257,6 @@
         "res_stb": 38,
         "hcp_ini": 12.7,
         "hcp_fin": 12.1
-      },
-      {
-        "fecha": "10/2025",
-        "nombre_torneo": "TORNEO SOCIAL INDIVIDUAL",
-        "club": "CLUB DE GOLF ARANJUEZ",
-        "form_calc": "ST",
-        "res_hcp": 24,
-        "dif_neto": -11,
-        "res_stb": 25,
-        "hcp_ini": 12.7,
-        "hcp_fin": 12.7
       }
     ]
   },
@@ -2264,9 +2264,20 @@
     "id": 25,
     "license": "AM83058773",
     "nickname": "Pepe Sandino",
-    "current_handicap": 6.7,
+    "current_handicap": 6.9,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "ALISTAIR GROUP 16/05/26",
+        "club": "LAURO GOLF",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 6.7,
+        "hcp_fin": 6.9
+      },
       {
         "fecha": "4/2026",
         "nombre_torneo": "COMPETICION SEMANAL 18/04/26",
@@ -2364,17 +2375,6 @@
         "dif_neto": -4,
         "res_stb": 32,
         "hcp_ini": 6.4,
-        "hcp_fin": 6.4
-      },
-      {
-        "fecha": "8/2024",
-        "nombre_torneo": "COMPETICIÓN SEMANAL",
-        "club": "LAURO GOLF",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": 2,
-        "res_stb": 38,
-        "hcp_ini": 6.9,
         "hcp_fin": 6.4
       }
     ]
@@ -2502,9 +2502,20 @@
     "id": 23,
     "license": "AMC3695184",
     "nickname": "Ricardo Luque",
-    "current_handicap": 18.4,
+    "current_handicap": 18.0,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "18o Aniversario HATO VERDE",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": 3,
+        "res_stb": 39,
+        "hcp_ini": 18.4,
+        "hcp_fin": 18.0
+      },
       {
         "fecha": "2/2026",
         "nombre_torneo": "LUNES AL GOLF J7 (TARDE 15:45)",
@@ -2603,17 +2614,6 @@
         "res_stb": 28,
         "hcp_ini": 19.1,
         "hcp_fin": 19.5
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "LeClub - SOMABAY WORLD CUP",
-        "club": "CLUB HATO VERDE",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -4,
-        "res_stb": 32,
-        "hcp_ini": 19.1,
-        "hcp_fin": 19.1
       }
     ]
   },
@@ -2740,9 +2740,20 @@
     "id": 22,
     "license": "CM66783350",
     "nickname": "Sute",
-    "current_handicap": 19.2,
+    "current_handicap": 18.5,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "Torneo Roll & Golf",
+        "club": "CLUB DE GOLF ARANJUEZ",
+        "form_calc": "ST",
+        "res_hcp": 38,
+        "dif_neto": 3,
+        "res_stb": 39,
+        "hcp_ini": 19.2,
+        "hcp_fin": 18.5
+      },
       {
         "fecha": "3/2026",
         "nombre_torneo": "TORNEO GROW GOLF",
@@ -2841,17 +2852,6 @@
         "res_stb": 38,
         "hcp_ini": 19.1,
         "hcp_fin": 18.7
-      },
-      {
-        "fecha": "6/2025",
-        "nombre_torneo": "Torneo Roll & Golf",
-        "club": "CLUB DE GOLF ARANJUEZ",
-        "form_calc": "ST",
-        "res_hcp": 28,
-        "dif_neto": -7,
-        "res_stb": 29,
-        "hcp_ini": 18.5,
-        "hcp_fin": 19.1
       }
     ]
   },
@@ -2978,9 +2978,20 @@
     "id": 20,
     "license": "7773790872",
     "nickname": "jmrojano",
-    "current_handicap": 10.0,
+    "current_handicap": 10.3,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "CTO ESPAÑA DOBLES DE PITCH Y PUTT 2",
+        "club": "CLUB COMPOSTELA PITCH & PUTT",
+        "form_calc": "SP",
+        "res_hcp": 0,
+        "dif_neto": -11,
+        "res_stb": 25,
+        "hcp_ini": 10.0,
+        "hcp_fin": 10.3
+      },
       {
         "fecha": "5/2026",
         "nombre_torneo": "I COPA CASTILLA Y LEON DE P P 2026",
@@ -3079,17 +3090,6 @@
         "res_stb": 28,
         "hcp_ini": 9.4,
         "hcp_fin": 9.4
-      },
-      {
-        "fecha": "3/2026",
-        "nombre_torneo": "II Prueba del Circuito de P P de Cy",
-        "club": "C. MUNICIPAL DE GOLF ISLA DOS AGUAS",
-        "form_calc": "SP",
-        "res_hcp": 0,
-        "dif_neto": -7,
-        "res_stb": 29,
-        "hcp_ini": 9.4,
-        "hcp_fin": 9.9
       }
     ]
   },
