@@ -126,13 +126,13 @@ def scrape_and_store_results():
         # Step 2: Navigate to "Área del Jugador"
         
         area_del_jugador_link = WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located(By.ID, "ctl00_m_g_81dd4ba0_8871_48bd_83e5_76aca2e74970_ctl00_enlaceAJ")
+            EC.presence_of_element_located((By.ID, "ctl00_m_g_81dd4ba0_8871_48bd_83e5_76aca2e74970_ctl00_enlaceAJ"))
         )
         area_del_jugador_link.click
 
         # Step 3: Emulate click on "Ficha de actividad"
         element = WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located(By.LINK_TEXT, "Ficha de actividad")
+            EC.presence_of_element_located((By.LINK_TEXT, "Ficha de actividad"))
         )
         element.click()
         time.sleep(5)
