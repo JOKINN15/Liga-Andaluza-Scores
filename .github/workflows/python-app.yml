@@ -37,6 +37,13 @@ jobs:
         run: |
           python refreshScores.py
 
+      - name: Upload failure screenshot
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: failure-screenshots
+          path: failure_screenshot.png
+
       - name: Export database to JSON for GitHub Pages
         run: |
           python - <<'PY'
