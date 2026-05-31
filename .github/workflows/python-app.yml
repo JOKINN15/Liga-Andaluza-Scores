@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: '0 10 * * 1,2'  # Lunes y martes a las 10:00 UTC (12:00 hora peninsular española)
+    - cron: '0 10 * * 1,2' # Lunes y martes a las 10:00 UTC (12:00 hora peninsular española)
 
 permissions:
   contents: write
@@ -18,35 +18,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }} # Necesario para poder hacer push después
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
-      - name: Install Chrome browser
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y chromium-browser chromium-chromedriver
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          # Ensure selenium is installed
-          pip install selenium webdriver-manager
 
-      - name: Run the scraping script with error capture
+      - name: Run the scraping script
         env:
           GOLF_USER: ${{ secrets.GOLF_USER }}
           GOLF_PASSWORD: ${{ secrets.GOLF_PASSWORD }}
-          CHROME_PATH: /usr/bin/chromium-browser
-          CHROMEDRIVER_PATH: /usr/bin/chromedriver
         run: |
-          # Run script and capture output
-          python refreshScores.py 2>&1 | tee scraping_output.log
-          
+          python refreshScores.py
+
       - name: Export database to JSON for GitHub Pages
         run: |
           python - <<'PY'
@@ -76,8 +66,8 @@ jobs:
                   FROM results
                   WHERE player_id = ?
                   ORDER BY 
-                      CAST(SUBSTR(fecha, instr(fecha, '/') + 1) AS INTEGER) DESC,
-                      CAST(SUBSTR(fecha, 1, instr(fecha, '/') - 1) AS INTEGER) DESC
+                      CAST(SUBSTR(fecha, instr(fecha, '/') + 1) AS INTEGER) DESC,   -- año primero
+                      CAST(SUBSTR(fecha, 1, instr(fecha, '/') - 1) AS INTEGER) DESC -- mes después
               """, (player_id,))
               player["results"] = [dict(row) for row in cur.fetchall()]
 
@@ -87,6 +77,7 @@ jobs:
           # Guardar JSON bonito
           with open("data/players.json", "w", encoding="utf-8") as f:
               json.dump(players, f, ensure_ascii=False, indent=2)
+
           print(f"Exportados {len(players)} jugadores a data/players.json")
           PY
 
@@ -98,32 +89,9 @@ jobs:
           git commit -m "Update scores data (auto-export from DB)" || echo "No changes to commit"
           git push
 
+      # Opcional: subir la base de datos como artifact (útil para debug)
       - name: Upload database artifact
         uses: actions/upload-artifact@v4
         with:
           name: golf-database
           path: golf.db
-        if: always()  # Upload even if previous steps failed
-
-      - name: Upload debug screenshots and logs
-        if: always()  # Always upload debug info, even on success
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-screenshots-and-logs
-          path: |
-            *.png
-            *.jpg
-            *.log
-            error_*.png
-            screenshot_*.png
-            scraping_output.log
-            page_source_*.html
-          retention-days: 7
-
-      - name: Upload full page source if exists
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: page-source-on-error
-          path: page_source_*.html
-          retention-days: 14
