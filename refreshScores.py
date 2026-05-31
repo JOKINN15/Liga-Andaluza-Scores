@@ -12,6 +12,17 @@ import json
 from datetime import datetime
 import os
 
+# Add this single function for screenshots (minimal)
+def take_screenshot(driver, name):
+    """Simple screenshot function"""
+    try:
+        os.makedirs("screenshots", exist_ok=True)
+        filename = f"screenshots/{datetime.now().strftime('%Y%m%d_%H%M%S')}_{name}.png"
+        driver.save_screenshot(filename)
+        print(f"📸 Screenshot saved: {filename}")
+    except Exception as e:
+        print(f"Could not save screenshot: {e}")
+
 username = os.getenv('GOLF_USER')
 password = os.getenv('GOLF_PASSWORD')
 
@@ -100,33 +111,39 @@ def scrape_and_store_results():
         # Step 1: Log in and navigate to the main page
         login_url = 'https://rfegolf.es/PaginasServicios/areadeljugador.aspx'
         driver.get(login_url)
+        take_screenshot(driver, "1_after_page_load")  # SCREENSHOT 1
         time.sleep(5)
 
         # Perform login
         entrar_button = driver.find_element(By.ID, "ctl00_MensajeEmergente1_entrar")
         driver.execute_script("arguments[0].click();", entrar_button)
+        take_screenshot(driver, "2_after_first_entrar")  # SCREENSHOT 2
         time.sleep(5)
 
         # Perform login
         entrar_button = driver.find_element(By.ID, "ctl00_CabeceraGolf_imgAbrirLogin")
         driver.execute_script("arguments[0].click();", entrar_button)
+        take_screenshot(driver, "3_after_login_popup")  # SCREENSHOT 3
         time.sleep(5)
 
         driver.find_element(By.ID, "ctl00_CabeceraGolf_login_UserName").send_keys(username)
         driver.find_element(By.ID, "ctl00_CabeceraGolf_login_password").send_keys(password)
         login_button = driver.find_element(By.ID, "ctl00_CabeceraGolf_login_login")
         driver.execute_script("arguments[0].click();", login_button)
+        take_screenshot(driver, "4_after_login_submit")  # SCREENSHOT 4
 
         time.sleep(5)  # Wait for login to complete
 
         # Step 2: Navigate to "Área del Jugador"
         area_del_jugador_link = driver.find_element(By.ID, "ctl00_m_g_81dd4ba0_8871_48bd_83e5_76aca2e74970_ctl00_enlaceAJ")
         driver.execute_script("arguments[0].click();", area_del_jugador_link)
+        take_screenshot(driver, "5_after_area_jugador")  # SCREENSHOT 5
         time.sleep(10)
 
         # Step 3: Emulate click on "Ficha de actividad"
         ficha_actividad_link = driver.find_element(By.LINK_TEXT, "Ficha de actividad")
         driver.execute_script("arguments[0].click();", ficha_actividad_link)
+        take_screenshot(driver, "6_after_ficha_actividad")  # SCREENSHOT 6 - THIS IS THE CRITICAL ONE!
         time.sleep(5)
 
         # Erase all records in the 'results' table
@@ -144,6 +161,7 @@ def scrape_and_store_results():
 
             search_button = driver.find_element(By.ID, "Ficha_Actividad1_BConsLicencia")
             driver.execute_script("arguments[0].click();", search_button)
+            take_screenshot(driver, f"7_after_search_{player.nickname}")  # SCREENSHOT per player
             time.sleep(10)
 
             # Step 4: Parse results
@@ -223,7 +241,13 @@ def scrape_and_store_results():
 
             driver.back()  # Navigate back to the previous page
             time.sleep(5)
+            
+        take_screenshot(driver, "8_completed_successfully")  # SCREENSHOT 8 - success!
 
+    except Exception as e:
+        take_screenshot(driver, f"ERROR_at_{str(e)[:50]}")  # SCREENSHOT on error
+        print(f"Error occurred: {e}")
+        raise
     finally:
         driver.quit()
 
