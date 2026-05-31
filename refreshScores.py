@@ -143,9 +143,10 @@ def scrape_and_store_results():
         time.sleep(10)
 
         # Step 3: Emulate click on "Ficha de actividad"
+        take_screenshot(driver, "8_before_ficha_actividad")  # SCREENSHOT 7 - THIS IS THE CRITICAL ONE!
         ficha_actividad_link = driver.find_element(By.LINK_TEXT, "Ficha de actividad")
         driver.execute_script("arguments[0].click();", ficha_actividad_link)
-        take_screenshot(driver, "6_after_ficha_actividad")  # SCREENSHOT 6 - THIS IS THE CRITICAL ONE!
+        take_screenshot(driver, "7_after_ficha_actividad")  # SCREENSHOT 8 - THIS IS THE CRITICAL ONE!
         time.sleep(5)
 
         # Erase all records in the 'results' table
