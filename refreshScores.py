@@ -9,6 +9,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
+
 
 from webdriver_manager.chrome import ChromeDriverManager
 import time
@@ -125,10 +127,14 @@ def scrape_and_store_results():
 
         # Step 2: Navigate to "Área del Jugador"
         
-        wait = WebDriverWait(driver, 10)
-        element = wait.until(EC.presence_of_element_located((By.ID, "ctl00_MensajeEmergente1_entrar")))
-        element.click()
-        driver.save_screenshot("failure_screenshot.png")
+        try:
+            element = driver.find_element("id", "ctl00_MensajeEmergente1_entrar")
+            element.click()
+        except NoSuchElementException as e:
+            driver.save_screenshot("failure_screenshot.png")
+            print(f"Element not found. Screenshot saved.")
+        raise
+
 
         # Step 3: Emulate click on "Ficha de actividad"
         element = WebDriverWait(driver, 30).until(
