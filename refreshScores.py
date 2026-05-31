@@ -133,9 +133,11 @@ def scrape_and_store_results():
         driver.find_element(By.ID, "ctl00_CabeceraGolf_login_password").send_keys(password)
         login_button = driver.find_element(By.ID, "ctl00_CabeceraGolf_login_login")
         driver.execute_script("arguments[0].click();", login_button)
-        take_screenshot(driver, "4_after_login_submit")  # SCREENSHOT 4
 
-        time.sleep(5)  # Wait for login to complete
+        # Wait for login to complete
+        time.sleep(15)
+        take_screenshot(driver, "4_after_login_submit")  # SCREENSHOT 4
+  
 
         # Step 2: Navigate to "Área del Jugador"
         area_del_jugador_link = driver.find_element(By.ID, "ctl00_m_g_81dd4ba0_8871_48bd_83e5_76aca2e74970_ctl00_enlaceAJ")
