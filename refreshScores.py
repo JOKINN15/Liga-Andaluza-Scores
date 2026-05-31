@@ -17,12 +17,14 @@ def take_screenshot(driver, name):
     """Simple screenshot function"""
     try:
         os.makedirs("screenshots", exist_ok=True)
-        filename = f"screenshots/{datetime.now().strftime('%Y%m%d_%H%M%S')}_{name}.png"
+        # Remove any invalid characters from filename
+        safe_name = name.replace(":", "_").replace('"', "'").replace("<", "_").replace(">", "_").replace("|", "_").replace("*", "_").replace("?", "_")
+        filename = f"screenshots/{datetime.now().strftime('%Y%m%d_%H%M%S')}_{safe_name}.png"
         driver.save_screenshot(filename)
         print(f"📸 Screenshot saved: {filename}")
     except Exception as e:
         print(f"Could not save screenshot: {e}")
-
+        
 username = os.getenv('GOLF_USER')
 password = os.getenv('GOLF_PASSWORD')
 
@@ -245,7 +247,8 @@ def scrape_and_store_results():
         take_screenshot(driver, "8_completed_successfully")  # SCREENSHOT 8 - success!
 
     except Exception as e:
-        take_screenshot(driver, f"ERROR_at_{str(e)[:50]}")  # SCREENSHOT on error
+        error_msg = str(e).replace(":", "_").replace(" ", "_")[:50]  # Clean the error message
+        take_screenshot(driver, f"ERROR_{error_msg}")
         print(f"Error occurred: {e}")
         raise
     finally:
