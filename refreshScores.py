@@ -6,6 +6,10 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 import json
@@ -120,8 +124,10 @@ def scrape_and_store_results():
         time.sleep(5)  # Wait for login to complete
 
         # Step 2: Navigate to "Área del Jugador"
-        area_del_jugador_link = driver.find_element(By.ID, "ctl00_m_g_81dd4ba0_8871_48bd_83e5_76aca2e74970_ctl00_enlaceAJ")
-        driver.execute_script("arguments[0].click();", area_del_jugador_link)
+        element = WebDriverWait(driver, 30).until(
+            EC.presence_of_element_located((By.LINK_TEXT, "Ficha de actividad"))
+        )
+        element.click()
         time.sleep(10)
 
         # Step 3: Emulate click on "Ficha de actividad"
