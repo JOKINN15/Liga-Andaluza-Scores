@@ -3,9 +3,20 @@
     "id": 1,
     "license": "AM93440721",
     "nickname": "ADLO",
-    "current_handicap": 20.4,
+    "current_handicap": 21.1,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "XIV Ranking Club d Golf Marbella",
+        "club": "MIRAFLORES GOLF",
+        "form_calc": "MP",
+        "res_hcp": 95,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 20.4,
+        "hcp_fin": 21.1
+      },
       {
         "fecha": "4/2026",
         "nombre_torneo": "X torneo ranking 2026",
@@ -102,17 +113,6 @@
         "res_hcp": 109,
         "dif_neto": -11,
         "res_stb": 25,
-        "hcp_ini": 19.4,
-        "hcp_fin": 19.4
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "Major Ranking 2025",
-        "club": "GOLF RÍO REAL",
-        "form_calc": "MP",
-        "res_hcp": 104,
-        "dif_neto": -6,
-        "res_stb": 30,
         "hcp_ini": 19.4,
         "hcp_fin": 19.4
       }
@@ -360,9 +360,20 @@
     "id": 15,
     "license": "AM93802309",
     "nickname": "BRUGA RK",
-    "current_handicap": 14.5,
+    "current_handicap": 14.8,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "XIV Ranking Club d Golf Marbella",
+        "club": "MIRAFLORES GOLF",
+        "form_calc": "MP",
+        "res_hcp": 95,
+        "dif_neto": -6,
+        "res_stb": 30,
+        "hcp_ini": 14.5,
+        "hcp_fin": 14.8
+      },
       {
         "fecha": "5/2026",
         "nombre_torneo": "TORNEO PORSCHE",
@@ -461,17 +472,6 @@
         "res_stb": 24,
         "hcp_ini": 10.7,
         "hcp_fin": 10.7
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "Final Ranking 2025",
-        "club": "EL PARAÍSO GOLF CLUB",
-        "form_calc": "MP",
-        "res_hcp": 105,
-        "dif_neto": -16,
-        "res_stb": 20,
-        "hcp_ini": 10.7,
-        "hcp_fin": 10.7
       }
     ]
   },
@@ -479,9 +479,20 @@
     "id": 21,
     "license": "AMB5602498",
     "nickname": "Carlos Pérez",
-    "current_handicap": 18.8,
+    "current_handicap": 16.4,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "XIV Ranking Club d Golf Marbella",
+        "club": "MIRAFLORES GOLF",
+        "form_calc": "MP",
+        "res_hcp": 82,
+        "dif_neto": 8,
+        "res_stb": 44,
+        "hcp_ini": 18.8,
+        "hcp_fin": 16.4
+      },
       {
         "fecha": "4/2026",
         "nombre_torneo": "X Ranking club d Golf Marbella",
@@ -580,17 +591,6 @@
         "res_stb": 29,
         "hcp_ini": 19.6,
         "hcp_fin": 19.8
-      },
-      {
-        "fecha": "9/2025",
-        "nombre_torneo": "Ranking 2025 Club d Golf Marbella",
-        "club": "ALHAURÍN GOLF HOTEL & RESORT",
-        "form_calc": "MP",
-        "res_hcp": 105,
-        "dif_neto": -12,
-        "res_stb": 24,
-        "hcp_ini": 19.2,
-        "hcp_fin": 19.6
       }
     ]
   },
@@ -1907,9 +1907,20 @@
     "id": 5,
     "license": "AM93370327",
     "nickname": "Manu",
-    "current_handicap": 15.1,
+    "current_handicap": 14.8,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "5/2026",
+        "nombre_torneo": "XIV Ranking Club d Golf Marbella",
+        "club": "MIRAFLORES GOLF",
+        "form_calc": "MP",
+        "res_hcp": 87,
+        "dif_neto": -1,
+        "res_stb": 35,
+        "hcp_ini": 15.1,
+        "hcp_fin": 14.8
+      },
       {
         "fecha": "4/2026",
         "nombre_torneo": "X torneo ranking 2026",
@@ -2008,17 +2019,6 @@
         "res_stb": 33,
         "hcp_ini": 15.7,
         "hcp_fin": 15.5
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "Ranking Club d golf Marbella",
-        "club": "VILLA PADIERNA GOLF CLUB",
-        "form_calc": "ST",
-        "res_hcp": 30,
-        "dif_neto": -5,
-        "res_stb": 31,
-        "hcp_ini": 15.7,
-        "hcp_fin": 15.7
       }
     ]
   },
