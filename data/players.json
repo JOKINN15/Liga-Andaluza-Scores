@@ -1074,9 +1074,20 @@
     "id": 11,
     "license": "AM85801916",
     "nickname": "Fran Turre",
-    "current_handicap": 9.7,
+    "current_handicap": 10.2,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "LA PATRONA INVITATIONAL GOLF CHAMPI",
+        "club": "LA MONACILLA GOLF CLUB",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -3,
+        "res_stb": 33,
+        "hcp_ini": 9.7,
+        "hcp_fin": 10.2
+      },
       {
         "fecha": "5/2026",
         "nombre_torneo": "CIRCUITO OLAZABAL S CUP 2026",
@@ -1175,17 +1186,6 @@
         "res_stb": 32,
         "hcp_ini": 8.0,
         "hcp_fin": 8.6
-      },
-      {
-        "fecha": "7/2025",
-        "nombre_torneo": "Circuito ATLANTICO",
-        "club": "ISLA CANELA OLD COURSE",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -7,
-        "res_stb": 29,
-        "hcp_ini": 8.0,
-        "hcp_fin": 8.0
       }
     ]
   },
