@@ -2502,9 +2502,20 @@
     "id": 23,
     "license": "AMC3695184",
     "nickname": "Ricardo Luque",
-    "current_handicap": 18.0,
+    "current_handicap": 18.4,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "LUNES AL GOLF FINAL (TARDE 17:30)",
+        "club": "CLUB HATO VERDE",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -1,
+        "res_stb": 35,
+        "hcp_ini": 18.0,
+        "hcp_fin": 18.4
+      },
       {
         "fecha": "5/2026",
         "nombre_torneo": "18o Aniversario HATO VERDE",
@@ -2603,17 +2614,6 @@
         "res_stb": 39,
         "hcp_ini": 19.5,
         "hcp_fin": 18.9
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "CIRCUITO SC AMBASSADOR CLUB 2025",
-        "club": "CLUB HATO VERDE",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -8,
-        "res_stb": 28,
-        "hcp_ini": 19.1,
-        "hcp_fin": 19.5
       }
     ]
   },
