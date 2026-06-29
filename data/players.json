@@ -3,9 +3,20 @@
     "id": 1,
     "license": "AM93440721",
     "nickname": "ADLO",
-    "current_handicap": 21.1,
+    "current_handicap": 20.5,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "I Major Ranking Club d Golf Marbell",
+        "club": "EL PARAÍSO GOLF CLUB",
+        "form_calc": "MP",
+        "res_hcp": 92,
+        "dif_neto": 2,
+        "res_stb": 38,
+        "hcp_ini": 21.1,
+        "hcp_fin": 20.5
+      },
       {
         "fecha": "6/2026",
         "nombre_torneo": "EL ROMERAL: HOYOS 19 al 9. 13/06/26",
@@ -104,17 +115,6 @@
         "res_stb": 31,
         "hcp_ini": 20.6,
         "hcp_fin": 20.6
-      },
-      {
-        "fecha": "2/2026",
-        "nombre_torneo": "V Ranking 2026 Club d Golf Marbella",
-        "club": "SANTA CLARA GOLF",
-        "form_calc": "MP",
-        "res_hcp": 108,
-        "dif_neto": -15,
-        "res_stb": 21,
-        "hcp_ini": 19.9,
-        "hcp_fin": 20.6
       }
     ]
   },
@@ -122,9 +122,20 @@
     "id": 7,
     "license": "AM00609439",
     "nickname": "Alfonso LL",
-    "current_handicap": 14.3,
+    "current_handicap": 14.1,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "I Major Ranking Club d Golf Marbell",
+        "club": "EL PARAÍSO GOLF CLUB",
+        "form_calc": "MP",
+        "res_hcp": 89,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 14.3,
+        "hcp_fin": 14.1
+      },
       {
         "fecha": "6/2026",
         "nombre_torneo": "XV Ranking Club d Golf Marbella",
@@ -223,17 +234,6 @@
         "res_stb": 38,
         "hcp_ini": 14.1,
         "hcp_fin": 13.8
-      },
-      {
-        "fecha": "2/2026",
-        "nombre_torneo": "IV Ranking 2026 Club d Golf Marbell",
-        "club": "GOLF MARBELLA & COUNTRY CLUB",
-        "form_calc": "ST",
-        "res_hcp": 32,
-        "dif_neto": -1,
-        "res_stb": 35,
-        "hcp_ini": 14.1,
-        "hcp_fin": 14.1
       }
     ]
   },
@@ -360,9 +360,20 @@
     "id": 15,
     "license": "AM93802309",
     "nickname": "BRUGA RK",
-    "current_handicap": 15.3,
+    "current_handicap": 15.0,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "IX Torneo Golf GTA 30 Aniversario",
+        "club": "VILLA PADIERNA GOLF CLUB",
+        "form_calc": "ST",
+        "res_hcp": 34,
+        "dif_neto": -1,
+        "res_stb": 35,
+        "hcp_ini": 15.3,
+        "hcp_fin": 15.0
+      },
       {
         "fecha": "6/2026",
         "nombre_torneo": "THE ONE",
@@ -459,17 +470,6 @@
         "res_hcp": 22,
         "dif_neto": -11,
         "res_stb": 25,
-        "hcp_ini": 11.3,
-        "hcp_fin": 11.3
-      },
-      {
-        "fecha": "2/2026",
-        "nombre_torneo": "V Ranking 2026 Club d Golf Marbella",
-        "club": "SANTA CLARA GOLF",
-        "form_calc": "MP",
-        "res_hcp": 97,
-        "dif_neto": -10,
-        "res_stb": 26,
         "hcp_ini": 11.3,
         "hcp_fin": 11.3
       }
@@ -598,9 +598,20 @@
     "id": 19,
     "license": "MM06773319",
     "nickname": "Diego Cano",
-    "current_handicap": 19.5,
+    "current_handicap": 20.2,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "XXXII ANIVERSARIO GOLF ALTORREAL",
+        "club": "CLUB DE GOLF ALTORREAL",
+        "form_calc": "ST",
+        "res_hcp": 28,
+        "dif_neto": -6,
+        "res_stb": 30,
+        "hcp_ini": 19.5,
+        "hcp_fin": 20.2
+      },
       {
         "fecha": "6/2026",
         "nombre_torneo": "TORNEO FINISHER DE KERN PHARMA (NOR",
@@ -697,17 +708,6 @@
         "res_hcp": 29,
         "dif_neto": -6,
         "res_stb": 30,
-        "hcp_ini": 19.2,
-        "hcp_fin": 19.2
-      },
-      {
-        "fecha": "6/2025",
-        "nombre_torneo": "XXXI ANIVERSARIO GOLF ALTORREAL",
-        "club": "CLUB DE GOLF ALTORREAL",
-        "form_calc": "ST",
-        "res_hcp": 26,
-        "dif_neto": -10,
-        "res_stb": 26,
         "hcp_ini": 19.2,
         "hcp_fin": 19.2
       }
@@ -1197,6 +1197,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "6/2026",
+        "nombre_torneo": "XXXII ANIVERSARIO GOLF ALTORREAL",
+        "club": "CLUB DE GOLF ALTORREAL",
+        "form_calc": "ST",
+        "res_hcp": 27,
+        "dif_neto": -8,
+        "res_stb": 28,
+        "hcp_ini": 16.1,
+        "hcp_fin": 16.1
+      },
+      {
         "fecha": "4/2026",
         "nombre_torneo": "XXVIII CIRCUITO GRUPO SOLEDAD SABAD",
         "club": "CLUB DE GOLF ALTORREAL",
@@ -1294,17 +1305,6 @@
         "res_stb": 36,
         "hcp_ini": 18.0,
         "hcp_fin": 17.6
-      },
-      {
-        "fecha": "5/2025",
-        "nombre_torneo": "T. MERCEDES TROPHY 2025 / VIERNES",
-        "club": "CLUB DE GOLF ALTORREAL",
-        "form_calc": "ST",
-        "res_hcp": 24,
-        "dif_neto": -11,
-        "res_stb": 25,
-        "hcp_ini": 17.4,
-        "hcp_fin": 18.0
       }
     ]
   },
@@ -1550,9 +1550,20 @@
     "id": 9,
     "license": "8816636542",
     "nickname": "Katxi",
-    "current_handicap": 11.1,
+    "current_handicap": 11.2,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "LIGA SENIOR POR EQUIPOS 2026 JORNAD",
+        "club": "CLUB DEPORTIVO TORRIJOS GOLF",
+        "form_calc": "ST",
+        "res_hcp": 18,
+        "dif_neto": -18,
+        "res_stb": 18,
+        "hcp_ini": 11.1,
+        "hcp_fin": 11.2
+      },
       {
         "fecha": "6/2026",
         "nombre_torneo": "TORNEO DE VERANO ENCÍN GOLF",
@@ -1651,17 +1662,6 @@
         "res_stb": 36,
         "hcp_ini": 12.2,
         "hcp_fin": 12.0
-      },
-      {
-        "fecha": "6/2025",
-        "nombre_torneo": "XXXV CAMPEONATO INTERCLUB DE CASTIL",
-        "club": "PALOMAREJOS GOLF",
-        "form_calc": "MP",
-        "res_hcp": 0,
-        "dif_neto": 2,
-        "res_stb": 38,
-        "hcp_ini": 12.3,
-        "hcp_fin": 12.2
       }
     ]
   },
@@ -1788,9 +1788,31 @@
     "id": 2,
     "license": "GC00433932",
     "nickname": "Maeslofer",
-    "current_handicap": 9.2,
+    "current_handicap": 9.4,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "MEMORIAL SANTIAGO REY",
+        "club": "REAL CLUB DE GOLF DE LA CORUÑA",
+        "form_calc": "ST",
+        "res_hcp": 30,
+        "dif_neto": -6,
+        "res_stb": 30,
+        "hcp_ini": 9.4,
+        "hcp_fin": 9.4
+      },
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "MEMORIAL SANTIAGO REY FERNÁNDEZ LAT",
+        "club": "Club de Campo de Golf de Xaz",
+        "form_calc": "ST",
+        "res_hcp": 34,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 9.2,
+        "hcp_fin": 9.4
+      },
       {
         "fecha": "6/2026",
         "nombre_torneo": "IV TORNEO SEOANE ASESORES - SABADO",
@@ -1878,28 +1900,6 @@
         "res_stb": 28,
         "hcp_ini": 9.3,
         "hcp_fin": 9.6
-      },
-      {
-        "fecha": "4/2026",
-        "nombre_torneo": "NAMBUMA MALAWI",
-        "club": "REAL CLUB DE GOLF DE LA CORUÑA",
-        "form_calc": "ST",
-        "res_hcp": 29,
-        "dif_neto": -7,
-        "res_stb": 29,
-        "hcp_ini": 9.3,
-        "hcp_fin": 9.3
-      },
-      {
-        "fecha": "3/2026",
-        "nombre_torneo": "MEMORIAL JOSE MANUEL PITA MACHIMBAR",
-        "club": "REAL CLUB DE GOLF DE LA CORUÑA",
-        "form_calc": "ST",
-        "res_hcp": 43,
-        "dif_neto": 7,
-        "res_stb": 43,
-        "hcp_ini": 10.2,
-        "hcp_fin": 9.3
       }
     ]
   },
@@ -1910,6 +1910,17 @@
     "current_handicap": 14.8,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "I Major Ranking Club d Golf Marbell",
+        "club": "EL PARAÍSO GOLF CLUB",
+        "form_calc": "MP",
+        "res_hcp": 99,
+        "dif_neto": -9,
+        "res_stb": 27,
+        "hcp_ini": 14.8,
+        "hcp_fin": 14.8
+      },
       {
         "fecha": "5/2026",
         "nombre_torneo": "XIV Ranking Club d Golf Marbella",
@@ -2008,17 +2019,6 @@
         "res_stb": 37,
         "hcp_ini": 15.5,
         "hcp_fin": 14.9
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "Ranking Club de Golf Marbella",
-        "club": "LA DUQUESA GOLF & COUNTRY CLUB",
-        "form_calc": "ST",
-        "res_hcp": 31,
-        "dif_neto": -3,
-        "res_stb": 33,
-        "hcp_ini": 15.7,
-        "hcp_fin": 15.5
       }
     ]
   },
@@ -2383,9 +2383,20 @@
     "id": 16,
     "license": "AM96627451",
     "nickname": "Pierre",
-    "current_handicap": 18.5,
+    "current_handicap": 18.6,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "FINAL CAMALEÓN GOLF TEMPORADA 25/26",
+        "club": "ISLA CANELA OLD COURSE",
+        "form_calc": "ST",
+        "res_hcp": 32,
+        "dif_neto": -4,
+        "res_stb": 32,
+        "hcp_ini": 18.5,
+        "hcp_fin": 18.6
+      },
       {
         "fecha": "6/2026",
         "nombre_torneo": "37º Jornada Camaleón Golf 25/26",
@@ -2484,17 +2495,6 @@
         "res_stb": 30,
         "hcp_ini": 17.1,
         "hcp_fin": 17.6
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "9ª JORNADA CAMALEÓN GOLF 25/26",
-        "club": "ISLA CANELA OLD COURSE",
-        "form_calc": "ST",
-        "res_hcp": 32,
-        "dif_neto": -4,
-        "res_stb": 32,
-        "hcp_ini": 16.6,
-        "hcp_fin": 17.1
       }
     ]
   },
@@ -2621,9 +2621,20 @@
     "id": 27,
     "license": "LV81220881",
     "nickname": "Roquet",
-    "current_handicap": 19.1,
+    "current_handicap": 19.3,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "O.M. AESGOLF SANTANDER MAPFRE- POS.",
+        "club": "CAMPO DE GOLF EL SALER",
+        "form_calc": "ST",
+        "res_hcp": 26,
+        "dif_neto": -10,
+        "res_stb": 26,
+        "hcp_ini": 19.1,
+        "hcp_fin": 19.3
+      },
       {
         "fecha": "5/2026",
         "nombre_torneo": "XIII ORDEN DE MERITO AESGOLF C.V. I",
@@ -2720,17 +2731,6 @@
         "res_hcp": 28,
         "dif_neto": -7,
         "res_stb": 29,
-        "hcp_ini": 16.9,
-        "hcp_fin": 16.9
-      },
-      {
-        "fecha": "7/2023",
-        "nombre_torneo": "LIGAS GOLF 18 HOYOS",
-        "club": "CLUB DE GOLF EL BOSQUE",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -11,
-        "res_stb": 25,
         "hcp_ini": 16.9,
         "hcp_fin": 16.9
       }
@@ -2859,9 +2859,20 @@
     "id": 26,
     "license": "CM56691067",
     "nickname": "Yelito",
-    "current_handicap": 18.4,
+    "current_handicap": 18.6,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "Yayo y chupetes 26",
+        "club": "CAMPO DE GOLF B.A. DE TORREJON",
+        "form_calc": "ST",
+        "res_hcp": 32,
+        "dif_neto": -5,
+        "res_stb": 31,
+        "hcp_ini": 18.4,
+        "hcp_fin": 18.6
+      },
       {
         "fecha": "5/2026",
         "nombre_torneo": "YAYOS & CHUPETES",
@@ -2960,17 +2971,6 @@
         "res_stb": 29,
         "hcp_ini": 17.0,
         "hcp_fin": 17.1
-      },
-      {
-        "fecha": "6/2024",
-        "nombre_torneo": "YAYOS & CHUPETES",
-        "club": "NATURAVILA GOLF",
-        "form_calc": "ST",
-        "res_hcp": 31,
-        "dif_neto": -5,
-        "res_stb": 31,
-        "hcp_ini": 16.3,
-        "hcp_fin": 17.0
       }
     ]
   },
@@ -2978,9 +2978,20 @@
     "id": 20,
     "license": "7773790872",
     "nickname": "jmrojano",
-    "current_handicap": 10.5,
+    "current_handicap": 10.3,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "VII CAMPEONATO DE DOBLES DE P$P DE",
+        "club": "CLUB DE GOLF DE BEJAR",
+        "form_calc": "ST",
+        "res_hcp": 39,
+        "dif_neto": 4,
+        "res_stb": 40,
+        "hcp_ini": 10.5,
+        "hcp_fin": 10.3
+      },
       {
         "fecha": "6/2026",
         "nombre_torneo": "VI Prb liga el Maderal",
@@ -3079,17 +3090,6 @@
         "res_stb": 35,
         "hcp_ini": 10.6,
         "hcp_fin": 10.5
-      },
-      {
-        "fecha": "4/2026",
-        "nombre_torneo": "VIERNES VILLA DE ARROYO - ONDA CERO",
-        "club": "CLUB DEPORTIVO GOLF SOTOVERDE",
-        "form_calc": "ST",
-        "res_hcp": 39,
-        "dif_neto": 3,
-        "res_stb": 39,
-        "hcp_ini": 11.0,
-        "hcp_fin": 10.6
       }
     ]
   },
@@ -3097,9 +3097,20 @@
     "id": 12,
     "license": "CM11211950",
     "nickname": "m_eagleito",
-    "current_handicap": 12.6,
+    "current_handicap": 13.4,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "6/2026",
+        "nombre_torneo": "Yayo y chupetes 26",
+        "club": "CAMPO DE GOLF B.A. DE TORREJON",
+        "form_calc": "ST",
+        "res_hcp": 35,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 12.6,
+        "hcp_fin": 13.4
+      },
       {
         "fecha": "5/2026",
         "nombre_torneo": "YAYOS & CHUPETES",
@@ -3198,17 +3209,6 @@
         "res_stb": 35,
         "hcp_ini": 12.3,
         "hcp_fin": 12.6
-      },
-      {
-        "fecha": "12/2025",
-        "nombre_torneo": "TORNEO AESGOLF CABALLEROS SENIORS C",
-        "club": "REAL CLUB LA MORALEJA",
-        "form_calc": "ST",
-        "res_hcp": 26,
-        "dif_neto": -6,
-        "res_stb": 30,
-        "hcp_ini": 12.3,
-        "hcp_fin": 12.3
       }
     ]
   }
