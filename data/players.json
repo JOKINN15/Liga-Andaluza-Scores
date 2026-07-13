@@ -3,9 +3,20 @@
     "id": 1,
     "license": "AM93440721",
     "nickname": "ADLO",
-    "current_handicap": 20.5,
+    "current_handicap": 19.9,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "7/2026",
+        "nombre_torneo": "Ranking 2026",
+        "club": "EL CHAPARRAL GOLF CLUB",
+        "form_calc": "ST",
+        "res_hcp": 38,
+        "dif_neto": 3,
+        "res_stb": 39,
+        "hcp_ini": 20.5,
+        "hcp_fin": 19.9
+      },
       {
         "fecha": "6/2026",
         "nombre_torneo": "I Major Ranking Club d Golf Marbell",
@@ -104,17 +115,6 @@
         "res_stb": 30,
         "hcp_ini": 20.6,
         "hcp_fin": 20.6
-      },
-      {
-        "fecha": "3/2026",
-        "nombre_torneo": "COMPETICION SEMANAL 07/03/26",
-        "club": "LAURO GOLF",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -5,
-        "res_stb": 31,
-        "hcp_ini": 20.6,
-        "hcp_fin": 20.6
       }
     ]
   },
@@ -122,9 +122,20 @@
     "id": 7,
     "license": "AM00609439",
     "nickname": "Alfonso LL",
-    "current_handicap": 14.1,
+    "current_handicap": 14.6,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "7/2026",
+        "nombre_torneo": "Ranking 2026",
+        "club": "EL CHAPARRAL GOLF CLUB",
+        "form_calc": "ST",
+        "res_hcp": 26,
+        "dif_neto": -10,
+        "res_stb": 26,
+        "hcp_ini": 14.1,
+        "hcp_fin": 14.6
+      },
       {
         "fecha": "7/2026",
         "nombre_torneo": "Ranking Club d Golf Marbella",
@@ -223,17 +234,6 @@
         "res_stb": 29,
         "hcp_ini": 13.8,
         "hcp_fin": 13.9
-      },
-      {
-        "fecha": "3/2026",
-        "nombre_torneo": "VI torneo ranking 2026",
-        "club": "CLUB DEPORTIVO AÑORETA GOLF",
-        "form_calc": "MP",
-        "res_hcp": 95,
-        "dif_neto": -5,
-        "res_stb": 31,
-        "hcp_ini": 13.8,
-        "hcp_fin": 13.8
       }
     ]
   },
@@ -364,6 +364,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "7/2026",
+        "nombre_torneo": "TORNEO ONDA-CERO 2026",
+        "club": "REAL CLUB DE GOLF GUADALMINA",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 15.0,
+        "hcp_fin": 15.0
+      },
+      {
         "fecha": "6/2026",
         "nombre_torneo": "IX Torneo Golf GTA 30 Aniversario",
         "club": "VILLA PADIERNA GOLF CLUB",
@@ -461,17 +472,6 @@
         "res_stb": 26,
         "hcp_ini": 11.3,
         "hcp_fin": 12.0
-      },
-      {
-        "fecha": "3/2026",
-        "nombre_torneo": "VII Torneo de ranking 2025",
-        "club": "ESTEPONA GOLF",
-        "form_calc": "ST",
-        "res_hcp": 22,
-        "dif_neto": -11,
-        "res_stb": 25,
-        "hcp_ini": 11.3,
-        "hcp_fin": 11.3
       }
     ]
   },
@@ -482,6 +482,17 @@
     "current_handicap": 16.7,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "7/2026",
+        "nombre_torneo": "Ranking 2026",
+        "club": "EL CHAPARRAL GOLF CLUB",
+        "form_calc": "ST",
+        "res_hcp": 26,
+        "dif_neto": -10,
+        "res_stb": 26,
+        "hcp_ini": 16.7,
+        "hcp_fin": 16.7
+      },
       {
         "fecha": "7/2026",
         "nombre_torneo": "Ranking Club d Golf Marbella",
@@ -580,17 +591,6 @@
         "res_stb": 31,
         "hcp_ini": 19.1,
         "hcp_fin": 19.4
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "Major Ranking 2025",
-        "club": "GOLF RÍO REAL",
-        "form_calc": "MP",
-        "res_hcp": 92,
-        "dif_neto": 5,
-        "res_stb": 41,
-        "hcp_ini": 19.8,
-        "hcp_fin": 19.1
       }
     ]
   },
@@ -1673,6 +1673,17 @@
     "handicap_galactico": 0.0,
     "results": [
       {
+        "fecha": "7/2026",
+        "nombre_torneo": "POOL PRIVADA AMIGOS VILLANUEVA",
+        "club": "VILLA NUEVA GOLF RESORT",
+        "form_calc": "MP",
+        "res_hcp": 0,
+        "dif_neto": -2,
+        "res_stb": 34,
+        "hcp_ini": 14.4,
+        "hcp_fin": 14.4
+      },
+      {
         "fecha": "6/2026",
         "nombre_torneo": "POOL AMIGOS VILLANUEVA",
         "club": "VILLA NUEVA GOLF RESORT",
@@ -1770,17 +1781,6 @@
         "res_stb": 28,
         "hcp_ini": 13.8,
         "hcp_fin": 14.0
-      },
-      {
-        "fecha": "1/2026",
-        "nombre_torneo": "1 J. CIRCUITO VNG 2026. CATEGORIA O",
-        "club": "VILLA NUEVA GOLF RESORT",
-        "form_calc": "MP",
-        "res_hcp": 0,
-        "dif_neto": -3,
-        "res_stb": 33,
-        "hcp_ini": 13.0,
-        "hcp_fin": 13.8
       }
     ]
   },
@@ -1907,9 +1907,20 @@
     "id": 5,
     "license": "AM93370327",
     "nickname": "Manu",
-    "current_handicap": 14.8,
+    "current_handicap": 14.2,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "7/2026",
+        "nombre_torneo": "Ranking 2026",
+        "club": "EL CHAPARRAL GOLF CLUB",
+        "form_calc": "ST",
+        "res_hcp": 36,
+        "dif_neto": 1,
+        "res_stb": 37,
+        "hcp_ini": 14.8,
+        "hcp_fin": 14.2
+      },
       {
         "fecha": "6/2026",
         "nombre_torneo": "I Major Ranking Club d Golf Marbell",
@@ -2007,17 +2018,6 @@
         "dif_neto": -4,
         "res_stb": 32,
         "hcp_ini": 14.9,
-        "hcp_fin": 14.9
-      },
-      {
-        "fecha": "11/2025",
-        "nombre_torneo": "Major Ranking 2025",
-        "club": "GOLF RÍO REAL",
-        "form_calc": "MP",
-        "res_hcp": 91,
-        "dif_neto": 1,
-        "res_stb": 37,
-        "hcp_ini": 15.5,
         "hcp_fin": 14.9
       }
     ]
@@ -2983,6 +2983,28 @@
     "results": [
       {
         "fecha": "7/2026",
+        "nombre_torneo": "VII prb liga el maderal",
+        "club": "GOLF EL MADERAL",
+        "form_calc": "SP",
+        "res_hcp": 61,
+        "dif_neto": -5,
+        "res_stb": 31,
+        "hcp_ini": 10.3,
+        "hcp_fin": 10.3
+      },
+      {
+        "fecha": "7/2026",
+        "nombre_torneo": "VII prb liga el maderal tarde",
+        "club": "GOLF EL MADERAL",
+        "form_calc": "SP",
+        "res_hcp": 56,
+        "dif_neto": -1,
+        "res_stb": 35,
+        "hcp_ini": 10.3,
+        "hcp_fin": 10.3
+      },
+      {
+        "fecha": "7/2026",
         "nombre_torneo": "V JORNADA LIGA DE EQUIPOS 2026",
         "club": "ESCUELA DE GOLF DE CASTILLA Y LEON",
         "form_calc": "ST",
@@ -3068,28 +3090,6 @@
         "res_stb": 36,
         "hcp_ini": 10.3,
         "hcp_fin": 10.0
-      },
-      {
-        "fecha": "4/2026",
-        "nombre_torneo": "III Prueba del Circuito de P P de C",
-        "club": "GOLF EL MADERAL",
-        "form_calc": "SP",
-        "res_hcp": 0,
-        "dif_neto": -5,
-        "res_stb": 31,
-        "hcp_ini": 10.5,
-        "hcp_fin": 10.5
-      },
-      {
-        "fecha": "4/2026",
-        "nombre_torneo": "III Prueba del Circuito de P P de C",
-        "club": "GOLF EL MADERAL",
-        "form_calc": "SP",
-        "res_hcp": 0,
-        "dif_neto": -1,
-        "res_stb": 35,
-        "hcp_ini": 10.5,
-        "hcp_fin": 10.3
       }
     ]
   },
@@ -3097,9 +3097,20 @@
     "id": 12,
     "license": "CM11211950",
     "nickname": "m_eagleito",
-    "current_handicap": 13.4,
+    "current_handicap": 12.9,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "7/2026",
+        "nombre_torneo": "RANKING MADRID AESGOLF INDIVIDUAL C",
+        "club": "CLUB DE GOLF OLIVAR DE LA HINOJOSA",
+        "form_calc": "ST",
+        "res_hcp": 38,
+        "dif_neto": 3,
+        "res_stb": 39,
+        "hcp_ini": 13.4,
+        "hcp_fin": 12.9
+      },
       {
         "fecha": "6/2026",
         "nombre_torneo": "Yayo y chupetes 26",
@@ -3197,17 +3208,6 @@
         "dif_neto": -7,
         "res_stb": 29,
         "hcp_ini": 12.6,
-        "hcp_fin": 12.6
-      },
-      {
-        "fecha": "12/2025",
-        "nombre_torneo": "TORNEO COCIDO 18 DE DICIEMBRE",
-        "club": "LAYOS CASA CAMPO S.A.",
-        "form_calc": "ST",
-        "res_hcp": 34,
-        "dif_neto": -1,
-        "res_stb": 35,
-        "hcp_ini": 12.3,
         "hcp_fin": 12.6
       }
     ]
