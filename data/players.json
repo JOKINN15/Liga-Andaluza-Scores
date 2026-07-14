@@ -3097,9 +3097,20 @@
     "id": 12,
     "license": "CM11211950",
     "nickname": "m_eagleito",
-    "current_handicap": 12.9,
+    "current_handicap": 11.9,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "7/2026",
+        "nombre_torneo": "AUPA",
+        "club": "PALACIO DEL NEGRALEJO S.A.",
+        "form_calc": "ST",
+        "res_hcp": 40,
+        "dif_neto": 3,
+        "res_stb": 39,
+        "hcp_ini": 12.9,
+        "hcp_fin": 11.9
+      },
       {
         "fecha": "7/2026",
         "nombre_torneo": "RANKING MADRID AESGOLF INDIVIDUAL C",
@@ -3196,17 +3207,6 @@
         "res_hcp": 36,
         "dif_neto": 1,
         "res_stb": 37,
-        "hcp_ini": 12.6,
-        "hcp_fin": 12.6
-      },
-      {
-        "fecha": "1/2026",
-        "nombre_torneo": "TORNEO AMIGOS DEL NEGRALEJO",
-        "club": "PALACIO DEL NEGRALEJO S.A.",
-        "form_calc": "ST",
-        "res_hcp": 30,
-        "dif_neto": -7,
-        "res_stb": 29,
         "hcp_ini": 12.6,
         "hcp_fin": 12.6
       }
