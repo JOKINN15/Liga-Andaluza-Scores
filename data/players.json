@@ -3,9 +3,20 @@
     "id": 1,
     "license": "AM93440721",
     "nickname": "ADLO",
-    "current_handicap": 19.9,
+    "current_handicap": 20.1,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "7/2026",
+        "nombre_torneo": "CIRCUITO PREMIUM MAHOU SANMIGUEL",
+        "club": "MIJAS GOLF INTERNACIONAL",
+        "form_calc": "ST",
+        "res_hcp": 34,
+        "dif_neto": -1,
+        "res_stb": 35,
+        "hcp_ini": 19.9,
+        "hcp_fin": 20.1
+      },
       {
         "fecha": "7/2026",
         "nombre_torneo": "Ranking 2026",
@@ -104,17 +115,6 @@
         "res_stb": 36,
         "hcp_ini": 20.6,
         "hcp_fin": 20.2
-      },
-      {
-        "fecha": "3/2026",
-        "nombre_torneo": "VII Torneo de ranking 2025",
-        "club": "ESTEPONA GOLF",
-        "form_calc": "ST",
-        "res_hcp": 26,
-        "dif_neto": -6,
-        "res_stb": 30,
-        "hcp_ini": 20.6,
-        "hcp_fin": 20.6
       }
     ]
   },
@@ -360,9 +360,20 @@
     "id": 15,
     "license": "AM93802309",
     "nickname": "BRUGA RK",
-    "current_handicap": 15.0,
+    "current_handicap": 14.4,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "7/2026",
+        "nombre_torneo": "CIRCUITO PREMIUM MAHOU SANMIGUEL",
+        "club": "MIJAS GOLF INTERNACIONAL",
+        "form_calc": "ST",
+        "res_hcp": 39,
+        "dif_neto": 4,
+        "res_stb": 40,
+        "hcp_ini": 15.0,
+        "hcp_fin": 14.4
+      },
       {
         "fecha": "7/2026",
         "nombre_torneo": "TORNEO ONDA-CERO 2026",
@@ -460,17 +471,6 @@
         "dif_neto": -8,
         "res_stb": 28,
         "hcp_ini": 12.0,
-        "hcp_fin": 12.0
-      },
-      {
-        "fecha": "3/2026",
-        "nombre_torneo": "IX Ranking 2026 Club d Golf Marbell",
-        "club": "LA DUQUESA GOLF & COUNTRY CLUB",
-        "form_calc": "MP",
-        "res_hcp": 94,
-        "dif_neto": -10,
-        "res_stb": 26,
-        "hcp_ini": 11.3,
         "hcp_fin": 12.0
       }
     ]
@@ -1669,9 +1669,20 @@
     "id": 13,
     "license": "AMC9819581",
     "nickname": "Lolo_Zulueta",
-    "current_handicap": 14.4,
+    "current_handicap": 14.2,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "7/2026",
+        "nombre_torneo": "TORNEO CADIZ CLUB DE GOLF",
+        "club": "FAIRPLAY GOLF & SPA RESORT",
+        "form_calc": "ST",
+        "res_hcp": 0,
+        "dif_neto": 1,
+        "res_stb": 37,
+        "hcp_ini": 14.4,
+        "hcp_fin": 14.2
+      },
       {
         "fecha": "7/2026",
         "nombre_torneo": "POOL PRIVADA AMIGOS VILLANUEVA",
@@ -1770,17 +1781,6 @@
         "res_stb": 38,
         "hcp_ini": 14.0,
         "hcp_fin": 13.6
-      },
-      {
-        "fecha": "3/2026",
-        "nombre_torneo": "II TORNEO CADIZ CF - CAJASOL",
-        "club": "VILLA NUEVA GOLF RESORT",
-        "form_calc": "ST",
-        "res_hcp": 0,
-        "dif_neto": -8,
-        "res_stb": 28,
-        "hcp_ini": 13.8,
-        "hcp_fin": 14.0
       }
     ]
   },
@@ -1791,6 +1791,17 @@
     "current_handicap": 9.4,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "7/2026",
+        "nombre_torneo": "EUDITA SABADO",
+        "club": "REAL CLUB DE GOLF DE LA CORUÑA",
+        "form_calc": "ST",
+        "res_hcp": 33,
+        "dif_neto": -3,
+        "res_stb": 33,
+        "hcp_ini": 9.4,
+        "hcp_fin": 9.4
+      },
       {
         "fecha": "7/2026",
         "nombre_torneo": "TORRE DE HERCULES MEM.PACO BALDO DO",
@@ -1882,17 +1893,6 @@
       {
         "fecha": "5/2026",
         "nombre_torneo": "HARAMBEE",
-        "club": "REAL CLUB DE GOLF DE LA CORUÑA",
-        "form_calc": "ST",
-        "res_hcp": 29,
-        "dif_neto": -6,
-        "res_stb": 30,
-        "hcp_ini": 9.6,
-        "hcp_fin": 9.6
-      },
-      {
-        "fecha": "5/2026",
-        "nombre_torneo": "VIÑA REAL",
         "club": "REAL CLUB DE GOLF DE LA CORUÑA",
         "form_calc": "ST",
         "res_hcp": 29,
@@ -2621,9 +2621,20 @@
     "id": 27,
     "license": "LV81220881",
     "nickname": "Roquet",
-    "current_handicap": 19.3,
+    "current_handicap": 18.9,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "7/2026",
+        "nombre_torneo": "CIRCUITO MAS Y FEM 3-4",
+        "club": "MELIÁ VILLAITANA GOLF",
+        "form_calc": "ST",
+        "res_hcp": 37,
+        "dif_neto": 1,
+        "res_stb": 37,
+        "hcp_ini": 19.3,
+        "hcp_fin": 18.9
+      },
       {
         "fecha": "6/2026",
         "nombre_torneo": "O.M. AESGOLF SANTANDER MAPFRE- POS.",
@@ -2720,17 +2731,6 @@
         "res_hcp": 26,
         "dif_neto": -9,
         "res_stb": 27,
-        "hcp_ini": 16.9,
-        "hcp_fin": 16.9
-      },
-      {
-        "fecha": "7/2023",
-        "nombre_torneo": "LIGA VERANO - LOS MARTES DE FORESSO",
-        "club": "FORESSOS CLUB DE GOLF",
-        "form_calc": "ST",
-        "res_hcp": 28,
-        "dif_neto": -7,
-        "res_stb": 29,
         "hcp_ini": 16.9,
         "hcp_fin": 16.9
       }
@@ -2978,9 +2978,20 @@
     "id": 20,
     "license": "7773790872",
     "nickname": "jmrojano",
-    "current_handicap": 10.3,
+    "current_handicap": 9.8,
     "handicap_galactico": 0.0,
     "results": [
+      {
+        "fecha": "7/2026",
+        "nombre_torneo": "XVII Torneo La Magdalena",
+        "club": "GOLF EL MADERAL",
+        "form_calc": "SP",
+        "res_hcp": 53,
+        "dif_neto": 1,
+        "res_stb": 37,
+        "hcp_ini": 10.3,
+        "hcp_fin": 9.8
+      },
       {
         "fecha": "7/2026",
         "nombre_torneo": "VII prb liga el maderal",
@@ -3079,17 +3090,6 @@
         "res_stb": 34,
         "hcp_ini": 10.3,
         "hcp_fin": 10.3
-      },
-      {
-        "fecha": "5/2026",
-        "nombre_torneo": "I COPA CASTILLA Y LEON DE P P 2026",
-        "club": "CLUB DEPORTIVO GOLF SOTOVERDE",
-        "form_calc": "SP",
-        "res_hcp": 0,
-        "dif_neto": 0,
-        "res_stb": 36,
-        "hcp_ini": 10.3,
-        "hcp_fin": 10.0
       }
     ]
   },
